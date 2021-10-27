@@ -12,7 +12,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: `/${i18n.locale}`
+      redirect: `/${i18n.locale}/`
     },
     {
       path: '/:lang',

@@ -6,7 +6,7 @@
         <nav class="container relative px-8 pt-8 pb-5 mx-auto lg:flex lg:items-center lg:justify-between md:flex-wrap">
           <div class="flex items-center justify-between lg:flex-none">
             <div class="h-20 -mt-2 lg:mt-3 lg:h-32">
-              <router-link :to="`/${$i18n.locale}`">
+              <router-link :to="`/${$i18n.locale}/`">
                 <img
                   src="/gfx/CG_Logo_Black.png"
                   alt="logo"
