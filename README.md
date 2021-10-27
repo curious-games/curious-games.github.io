@@ -1,4 +1,4 @@
-# Curious Games Homepage 
+# Curious Games Homepage Vue
 
 ## Project setup
 ```
