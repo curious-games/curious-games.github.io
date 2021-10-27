@@ -45,6 +45,8 @@
       for (let i = 0; i <= 131; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
+      
+      showSequenceImages.reverse() 
 
       const requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
