@@ -28,7 +28,7 @@
       <div class="max-w-full p-16 text-white scroll-sequence__content">
         <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl font-bold">Home 01 We push boundaries every day to entertain and maximize the gaming experience for players</p>
+            <p class="text-xl font-bold">Home 02 We push boundaries every day to entertain and maximize the gaming experience for players</p>
           </div>
         </div>
         <div class="grid mx-0 my-mega floater place-content-end">
@@ -52,7 +52,7 @@
       <div class="max-w-full p-16 text-white scroll-sequence__content">
         <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl font-bold">Home 01 We push boundaries every day to entertain and maximize the gaming experience for players</p>
+            <p class="text-xl font-bold">Home 03 We push boundaries every day to entertain and maximize the gaming experience for players</p>
           </div>
         </div>
         <div class="grid mx-0 my-mega floater place-content-end">
@@ -70,6 +70,7 @@
       </div>
     </section>
     <!--   <div class="spacer"></div> -->
+    
     <div class="min-h-screen pt-40 text-center text-black bg-white content">
       <h1 class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue">Content</h1>
     </div>
