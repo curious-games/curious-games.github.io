@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import i18n from './i18n'
 
 Vue.use(Router)
-// const pages = ['Home01.vue', 'Home02.vue', 'Home03.vue']
+const pages = ['Home01.vue', 'Home02.vue']
 
 export default new Router({
   mode: 'history',
@@ -23,8 +23,8 @@ export default new Router({
         {
           path: '/',
           name: 'home',
-          component: () => import('./views/Home.vue')
-          // component: () => import(`./views/${pages[Math.floor(Math.random()*pages.length)]}`)
+          // component: () => import('./views/Home.vue')
+          component: () => import(`./views/${pages[Math.floor(Math.random()*pages.length)]}`)
         },
         {
           path: 'about',
