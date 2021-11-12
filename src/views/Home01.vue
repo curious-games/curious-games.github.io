@@ -5,22 +5,29 @@
       <div class="max-w-full p-16 text-white scroll-sequence__content">
         <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl font-bold">Home 01 We push boundaries every day to entertain and maximize the gaming experience for players</p>
+            <p class="text-xl">Curious Games is the <b>world’s first virtual sports publisher</b> dedicated to alternative virtual contests.</p>
           </div>
         </div>
         <div class="grid mx-0 my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
-            <h2 class="mb-3 text-3xl font-bold md:text-4xl">Want to join our team?</h2>
-            <p class="text-xl font-bold">Are you passionate about your craft? Check out our current job openings.</p>
+            <p class="text-xl">Delivering the <b>highest quality content with real time data driven AI markets</b> for the most intuitive of gaming experiences.</p>
           </div>
         </div>
         <div class="grid mx-0 my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <h2 class="mb-3 text-3xl font-bold md:text-4xl">Time to Think Bigger!</h2>
-            <p class="text-xl font-bold">Curious Games is best described as an end-to-end software factory where each element of a game is developed in-house. Every game is tweaked and tuned to the level of ultimate user experience.</p>
+            <p class="text-xl">Dynamic in game assets produced by <b>Oscar and Bafta award winning VFX artists</b> and interactive entertainment industry veterans. </p>
           </div>
         </div>
-        
+        <div class="grid mx-0 my-mega floater place-content-end">
+          <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
+            <p class="text-xl">Our virtual contests can be <b>streamed seamlessly</b> with mobile optimisation or locally rendered to the venue of your choice. Available through <b>one single API with no additional integration</b>.</p>
+          </div>
+        </div>
+        <div class="grid mx-0 my-mega floater place-content-center">
+          <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
+            <p class="text-xl">The game logic behind each of our virtual contests are <b>fully customisable</b> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- <div class="spacer"></div> -->
