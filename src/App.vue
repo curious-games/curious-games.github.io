@@ -85,7 +85,7 @@
           <p class="p-4 align-bottom md:h-36 md:table-cell text-xxs">Curious Games ‘Curious Cluster Limited’ is the owner of all software and all other material on this website.<br>All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games.<br>Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
       </div>
       <div class="inline-block md:table">
-        <img src="/gfx/footer.png" alt="hello" class="align-bottom md:table-cell md:h-28" />
+        <img src="/gfx/footer.png" alt="hello" class="align-bottom md:table-cell md:h-36" />
       </div>
     </div>
   </div>

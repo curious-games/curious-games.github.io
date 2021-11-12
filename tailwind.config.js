@@ -33,6 +33,11 @@ module.exports = {
       colors: {
         'cur-pink': '#FF0099',
         'cur-blue': '#4CB7EB',
+      },
+      borderWidth: {
+        '10': '10px',
+        '11': '11px',
+        '12': '12px',
       }
 
     },
