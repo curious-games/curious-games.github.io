@@ -30,10 +30,6 @@
         </div>
       </div>
     </section>
-    <!-- <div class="spacer"></div> -->
-    <div class="min-h-screen pt-40 text-center text-black bg-white content">
-      <h1 class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue">Content</h1>
-    </div>
   </div>
 </template>
 

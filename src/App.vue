@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="relative font-sans text-white">
+  <div id="app" class="relative flex flex-col min-h-screen font-sans text-white">
     <div class="fixed h-29">
       <div class="fixed z-10 w-screen bg-black border-b border-gray-600 h-29"></div>
       <header class="fixed z-20 w-full">
@@ -77,8 +77,16 @@
         </nav>
       </header>
     </div>
-    <div class="-mt-3 text-lg">
+    <div class="flex-grow -mt-3 text-lg">
       <router-view />
+    </div>
+    <div class="block grid-flow-col overflow-hidden text-white bg-black md:h-36 md:grid auto-cols-max">
+      <div class="inline-block md:table md:h-36">
+          <p class="p-4 align-bottom md:h-36 md:table-cell text-xxs">Curious Games ‘Curious Cluster Limited’ is the owner of all software and all other material on this website.<br>All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games.<br>Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
+      </div>
+      <div class="inline-block md:table">
+        <img src="/gfx/footer.png" alt="hello" class="align-bottom md:table-cell md:h-28" />
+      </div>
     </div>
   </div>
 </template>
