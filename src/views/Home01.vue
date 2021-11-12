@@ -42,7 +42,7 @@
 
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 131; i ++) {
+      for (let i = 0; i <= 120; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
@@ -378,7 +378,7 @@
         container: '.show-sequence',
         scrollWith: '.show-container',
         images: showSequenceImages,
-        imagesRoot: '/img/sequence/placeholder/',
+        imagesRoot: '/img/sequence/robodog/',
         priorityFrames: [0, 20, 40, 60, 80],
         cover: true,
         playUntil: 'scroll-out',

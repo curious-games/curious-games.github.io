@@ -42,7 +42,7 @@
 
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 131; i ++) {
+      for (let i = 0; i <= 120; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
