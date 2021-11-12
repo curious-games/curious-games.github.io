@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen mx-auto scroll-container">
-    <section class="w-screen scroll-sequence__container show-container">
-      <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence show-sequence"></div>
+    <section class="w-screen scroll-sequence__container robodog-show-container">
+      <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence robodog-show-sequence"></div>
       <div class="max-w-full p-16 text-white scroll-sequence__content">
         <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
@@ -42,12 +42,10 @@
 
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 120; i ++) {
+      for (let i = 0; i <= 90; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
-      showSequenceImages.reverse() 
-
       const requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
       class EventEmitter {
@@ -375,8 +373,8 @@
       }
 
       const showSequence = new ScrollSequence({
-        container: '.show-sequence',
-        scrollWith: '.show-container',
+        container: '.robodog-show-sequence',
+        scrollWith: '.robodog-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/robodog/',
         priorityFrames: [0, 20, 40, 60, 80],

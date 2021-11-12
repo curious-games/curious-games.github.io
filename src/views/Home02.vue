@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen mx-auto scroll-container">
-    <section class="w-screen scroll-sequence__container show-container">
-      <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence show-sequence"></div>
+    <section class="w-screen scroll-sequence__container bugs-show-container">
+      <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence bugs-show-sequence"></div>
       <div class="max-w-full p-16 text-white scroll-sequence__content">
         <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
@@ -46,7 +46,6 @@
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
-      showSequenceImages.reverse() 
 
       const requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
@@ -375,8 +374,8 @@
       }
 
       const showSequence = new ScrollSequence({
-        container: '.show-sequence',
-        scrollWith: '.show-container',
+        container: '.bugs-show-sequence',
+        scrollWith: '.bugs-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/bugs/',
         priorityFrames: [0, 20, 40, 60, 80],
