@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueFuse from 'vue-fuse'
 import VModal from 'vue-js-modal'
 import ToggleButton from 'vue-js-toggle-button'
-
+import '@/assets/css/tailwind.css'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
