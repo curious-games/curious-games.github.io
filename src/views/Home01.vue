@@ -380,7 +380,7 @@
         scrollWith: '.robodog-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/robodog-md/',
-        priorityFrames: [0, 20, 40, 60, 80],
+        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 40, 60, 80],
         cover: true,
         playUntil: 'scroll-out',
         starts: 'in'

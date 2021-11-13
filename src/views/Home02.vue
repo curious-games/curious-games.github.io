@@ -45,7 +45,7 @@
 
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 120; i ++) {
+      for (let i = 0; i <= 90; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
@@ -381,7 +381,7 @@
         scrollWith: '.bugs-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/bugs/',
-        priorityFrames: [0, 20, 40, 60, 80],
+        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 40, 60, 80],
         cover: true,
         playUntil: 'scroll-out',
         starts: 'in'
