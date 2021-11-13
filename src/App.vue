@@ -109,6 +109,21 @@ export default {
     // ModalRegister,
     // LanguageSwitcher,
   },
+  beforeCreate() {
+    function preloadImages(srcs) {
+        if (!preloadImages.cache) {
+            preloadImages.cache = [];
+        }
+        var img;
+        for (var i = 0; i < srcs.length; i++) {
+            img = new Image();
+            img.src = srcs[i];
+            preloadImages.cache.push(img);
+        }
+    }
+    var imageSrcs = ["/img/sequence/robodog-md/", "/img/sequence/bugs/"];
+    preloadImages(imageSrcs);
+  },
   data() {
     return {
       menuOpen: false,
