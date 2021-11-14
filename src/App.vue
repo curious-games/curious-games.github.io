@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="relative flex flex-col min-h-screen font-sans text-white">
+  <div class="relative flex flex-col min-h-screen font-sans text-white">
     <div class="fixed h-29">
       <div class="fixed z-10 w-screen bg-black border-b border-gray-600 h-29"></div>
       <header class="fixed z-20 w-full">
@@ -109,21 +109,22 @@ export default {
     // ModalRegister,
     // LanguageSwitcher,
   },
-  beforeCreate() {
-    function preloadImages(srcs) {
-        if (!preloadImages.cache) {
-            preloadImages.cache = [];
-        }
-        var img;
-        for (var i = 0; i < srcs.length; i++) {
-            img = new Image();
-            img.src = srcs[i];
-            preloadImages.cache.push(img);
-        }
-    }
-    var imageSrcs = ["/img/sequence/robodog-md/", "/img/sequence/bugs/"];
-    preloadImages(imageSrcs);
-  },
+  // beforeCreate() {
+  //   function preloadImages(srcs) {
+  //       if (!preloadImages.cache) {
+  //           preloadImages.cache = [];
+  //       }
+  //       var img;
+  //       for (var i = 0; i < srcs.length; i++) {
+  //           img = new Image();
+  //           img.src = srcs[i];
+  //           preloadImages.cache.push(img);
+  //       }
+  //   }
+  //   var imageSrcs = ["/img/sequence/robodog-md/", "/img/sequence/bugs/"];
+  //   preloadImages(imageSrcs);
+  //   console.log('preloadImages')
+  // },
   data() {
     return {
       menuOpen: false,

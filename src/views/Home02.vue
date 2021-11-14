@@ -34,13 +34,9 @@
 </template>
 
 <script>
-/* eslint-disable */
-// import Carousel from "@/components/Carousel.vue";
   import ScrollOut from 'scroll-out';
   export default {
-    components: {
-      // Carousel,
-    },
+
     mounted() {
 
       const showSequenceImages = [];
