@@ -13,6 +13,10 @@ Vue.use(VModal)
 
 Vue.config.productionTip = false
 
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
+
 // use beforeEach route guard to set the language
 router.beforeEach((to, from, next) => {
 

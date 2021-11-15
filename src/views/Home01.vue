@@ -34,6 +34,7 @@
 </template>
 
 <script>
+  /* eslint-disable */
   import ScrollOut from 'scroll-out';
   export default {
 
@@ -155,13 +156,13 @@
           this.renderIndex(this.displayIndex);
         }
         
-        /**
+       /**
        * By Ken Fyrstenberg Nilsen
        *
        * drawImageProp(context, image [, x, y, width, height [,offsetX, offsetY]])
        *
        * If image and context are only arguments rectangle will equal canvas
-      */
+       */
         drawImageCover(ctx, img, x, y, w, h, offsetX, offsetY) {
 
             if (arguments.length === 2) {
@@ -237,6 +238,7 @@
             
             if (e === 0) {
               this.emit('FIRST_IMAGE_LOADED');
+              console.log('FIRST_IMAGE_LOADED');
             }
             this.loadNextImage();
           }
@@ -250,12 +252,14 @@
             this.loadImage(this.priorityQueue.shift());
             if (!this.priorityQueue.length) {
               this.emit('PRIORITY_IMAGES_LOADED');
+              console.log('PRIORITY_IMAGES_LOADED');
             }
           } else if (this.loadingQueue.length) {
               this.loadImage(this.loadingQueue.shift())
           } else {
             this.complete = true;
             this.emit('IMAGES_LOADED');
+            console.log('IMAGES_LOADED');
           }
         }
         
@@ -376,7 +380,7 @@
         scrollWith: '.robodog-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/robodog-md/',
-        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 40, 60, 80],
+        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         cover: true,
         playUntil: 'scroll-out',
         starts: 'in'

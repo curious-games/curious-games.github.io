@@ -34,8 +34,7 @@
 </template>
 
 <script>
-/* eslint-disable */
-// import Carousel from "@/components/Carousel.vue";
+  /* eslint-disable */
   import ScrollOut from 'scroll-out';
   export default {
     components: {
@@ -381,7 +380,7 @@
         scrollWith: '.bugs-show-container',
         images: showSequenceImages,
         imagesRoot: '/img/sequence/hans/',
-        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 40, 60, 80],
+        priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         cover: true,
         playUntil: 'scroll-out',
         starts: 'in'
