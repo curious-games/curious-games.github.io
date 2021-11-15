@@ -40,7 +40,7 @@
 
     mounted() {
 
-    const frameCount = 90;
+    const frameCount = 20;
     const currentFrame = index => (
       `/img/sequence/bugs/${index.toString().padStart(4, '0')}.jpg`
     )

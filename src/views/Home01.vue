@@ -41,7 +41,7 @@
     mounted() {
 
 
-    const frameCount = 90;
+    const frameCount = 20;
     const currentFrame = index => (
       `/img/sequence/robodog-md/${index.toString().padStart(4, '0')}.jpg`
     )
