@@ -1,12 +1,12 @@
 {
-  "name": "vue-tailwind-scaffold",
+  "name": "curiousgames-io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --host localhost",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "deploy": "ssh -i ~/.ssh/id_rsa -p 7000 -t deployer@134.209.183.10 'cd /var/www/curious-games.github.io/ && git pull && sudo nginx -s reload'",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
