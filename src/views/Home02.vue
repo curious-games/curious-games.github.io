@@ -40,6 +40,23 @@
 
     mounted() {
 
+    const frameCount = 90;
+    const currentFrame = index => (
+      `/img/sequence/bugs/${index.toString().padStart(4, '0')}.jpg`
+    )
+
+    const preloadImages = () => {
+      for (let i = 1; i < frameCount; i++) {
+        const img = new Image();
+        img.src = currentFrame(i);
+      }
+    };
+
+    preloadImages()
+
+    // END PRELOAD
+
+
       const showSequenceImages = [];
 
       for (let i = 0; i <= 90; i ++) {
