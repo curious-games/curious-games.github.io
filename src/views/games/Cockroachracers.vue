@@ -8,7 +8,7 @@
         <router-link :to="`/${$i18n.locale}/games/`" class="mb-8 text-2xl font-semibold md:text-6xl md:text-right md:mr-6">
           <span class="border-b-8 border-gradient-r-curious">＜</span>
         </router-link>
-        <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Virtual Roach Races</span></p></div>
+        <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Virtual Roach R</span>aces</p></div>
         <div class="col-span-6 md:col-span-3 md:col-start-2">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste fugiat sit at asperiores earum, nemo est nihil esse delectus ratione veniam aliquid temporibus placeat, laboriosam repellat? Sapiente, cumque porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste fugiat sit at asperiores earum, nemo est nihil esse delectus ratione veniam aliquid temporibus placeat, laboriosam repellat? Sapiente, cumque porro!</p>
