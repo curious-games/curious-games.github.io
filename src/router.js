@@ -53,6 +53,31 @@ export default new Router({
           path: 'contact',
           name: 'contact',
           component: () => import('./views/Contact.vue')
+        },
+        {
+          path: 'games/cockroachracers',
+          name: 'cockroachracers',
+          component: () => import('./views/games/Cockroachracers.vue')
+        },
+        {
+          path: 'games/robodog',
+          name: 'robodog',
+          component: () => import('./views/games/Robodog.vue')
+        },
+        {
+          path: 'games/cyberrace',
+          name: 'cyberrace',
+          component: () => import('./views/games/Cyberrace.vue')
+        },
+        {
+          path: 'games/tronbikers',
+          name: 'tronbikers',
+          component: () => import('./views/games/Tronbikers.vue')
+        },
+        {
+          path: 'games/catchacrab',
+          name: 'catchacrab',
+          component: () => import('./views/games/Catchacrab.vue')
         }
       ]
     }
