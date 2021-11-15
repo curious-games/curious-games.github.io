@@ -75,7 +75,9 @@
             </ul>
           </div>
         </nav>
+        
       </header>
+      <div v-if="menuOpen" class="outside" v-on:click="away()"></div>
     </div>
     <div class="flex-grow -mt-3 text-lg">
       <router-view />
@@ -88,43 +90,24 @@
         <img src="/gfx/footer.png" alt="hello" class="align-bottom md:table-cell md:h-36" />
       </div>
     </div>
+    
   </div>
 </template>
 
-<script>
-// import SearchComponent from "@/components/SearchComponent.vue";
-// import DropdownMenu from "@/components/DropdownMenu.vue";
-// import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
-// import MegaMenu from "@/components/MegaMenu.vue";
-// import ModalLogin from "@/components/ModalLogin.vue";
-// import ModalRegister from "@/components/ModalRegister.vue";
+<style scoped>
+.outside {
+  
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+</style>
 
+<script>
 export default {
   name: "app",
-  components: {
-    // SearchComponent,
-    // DropdownMenu,
-    // MegaMenu,
-    // ModalLogin,
-    // ModalRegister,
-    // LanguageSwitcher,
-  },
-  // beforeCreate() {
-  //   function preloadImages(srcs) {
-  //       if (!preloadImages.cache) {
-  //           preloadImages.cache = [];
-  //       }
-  //       var img;
-  //       for (var i = 0; i < srcs.length; i++) {
-  //           img = new Image();
-  //           img.src = srcs[i];
-  //           preloadImages.cache.push(img);
-  //       }
-  //   }
-  //   var imageSrcs = ["/img/sequence/robodog-md/", "/img/sequence/bugs/"];
-  //   preloadImages(imageSrcs);
-  //   console.log('preloadImages')
-  // },
   data() {
     return {
       menuOpen: false,
@@ -134,6 +117,9 @@ export default {
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
     },
+    away() {
+       this.menuOpen = false;
+    }
   },
 };
 </script>
