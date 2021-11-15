@@ -139,7 +139,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .link-exact-active, .router-link-active {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
 }
