@@ -15,7 +15,6 @@ module.exports = {
         '160': '40rem',
         'half' :'50vh',
         'mega' :'150vh',
-        '50%': '50%'
       },
       inset: {
         '-16': '-4rem',

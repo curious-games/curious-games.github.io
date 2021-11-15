@@ -1,8 +1,8 @@
 <template>
   <div class="relative flex flex-col min-h-screen font-sans text-white">
-    <div class="fixed h-29">
-      <div class="fixed z-10 w-screen bg-black border-b border-gray-600 h-29"></div>
-      <header class="fixed z-20 w-full">
+    <div class="fixed z-30 h-29">
+      <div class="fixed z-40 w-screen bg-black border-b border-gray-600 h-29"></div>
+      <header class="fixed z-50 w-full">
         <nav class="container relative px-8 pt-8 pb-5 mx-auto lg:flex lg:items-center lg:justify-between md:flex-wrap">
           <div class="flex items-center justify-between lg:flex-none">
             <div class="h-20 -mt-2 lg:mt-3 lg:h-32">

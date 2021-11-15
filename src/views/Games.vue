@@ -1,30 +1,26 @@
 <template>
-  <div>
-    <div class="container px-8 pt-40 mx-auto text-black lg:px-48">
-      <h2 class="text-3xl font-bold ">This is the Games page</h2>
-
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      <p class="mt-4 mb-20">Lorem ipsum dolor sit amet <a href="#" class="text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue hover:text-blue-800">consectetur</a> adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint.</p>
-      
-      
+  <div class="pt-28">
+    <div class="relative h-80 md:h-160">
+      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/CockroachRacers.png')"></div>
+      <a href="#" class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white duration-300 opacity-0 bg-cur-pink/10 hover:opacity-100 ">
+      <p><span class="border-b-8 border-gradient-r-curious">Virtual Roa</span>ch Races</p>
+      </a>
     </div>
-    
+    <div class="relative h-80 md:h-160">
+      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/Robodog.png')"></div>
+      <a href="#" class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white duration-300 opacity-0 bg-cur-pink/10 hover:opacity-100 "><p>Machina Races<br><span class="border-b-8 border-gradient-r-curious">K9 Edition&nbsp;&nbsp;</span></p></a>
+    </div>
+    <div class="relative h-80 md:h-160">
+      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/CyberRace.png')"></div>
+      <a href="#" class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white duration-300 opacity-0 bg-cur-pink/10 hover:opacity-100"><p>Machina Races<br><span class="border-b-8 border-gradient-r-curious">CyberRaces</span></p></a>
+    </div>
+    <div class="relative h-80 md:h-160">
+      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/TronBikers.png')"></div>
+      <a href="#" class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white duration-300 opacity-0 bg-cur-pink/10 hover:opacity-100"><p>Machina Races<br><span class="border-b-8 border-gradient-r-curious">Tron Bikers</span></p></a>
+    </div>
+    <div class="relative h-80 md:h-160">
+      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/CatchACrab.png')"></div>
+      <a href="#" class="absolute inset-0 z-10 flex items-center justify-center text-6xl font-semibold text-white duration-300 opacity-0 bg-cur-pink/10 hover:opacity-100"><p><span class="border-b-8 border-gradient-r-curious">Chase A Cr</span>ab</p></a>
+    </div>
   </div>
 </template>
