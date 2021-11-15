@@ -39,7 +39,8 @@
   export default {
 
     mounted() {
-
+    
+    window.scrollTo(0, 0)
 
     const frameCount = 20;
     const currentFrame = index => (

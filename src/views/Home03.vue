@@ -42,6 +42,8 @@
     },
     mounted() {
 
+    window.scrollTo(0, 0)
+
       const showSequenceImages = [];
 
       for (let i = 0; i <= 131; i ++) {
