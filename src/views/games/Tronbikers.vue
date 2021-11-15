@@ -20,7 +20,7 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste fugiat sit at asperiores earum, nemo est nihil esse delectus ratione veniam aliquid temporibus placeat, laboriosam repellat? Sapiente, cumque porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste fugiat sit at asperiores earum, nemo est nihil esse delectus ratione veniam aliquid temporibus placeat, laboriosam repellat? Sapiente, cumque porro!</p>
         </div>
-        <div class="col-span-5 col-start-2">
+        <div class="cols-span-6 md:col-span-5 md:col-start-2">
           Video
         </div>
       </div>
