@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_rsa -p 7000 -t deployer@134.209.183.10 'cd /var/www/curious-games.github.io/ && git pull'
