@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container px-8 pt-40 mx-auto text-black lg:px-48">
-      <h2 class="inline-block pt-10 text-8xl">Curious about</h2>
-      <h2 class="inline-block pt-10 border-b-8 text-8xl border-gradient-r-curious">our team</h2>
+    <div class="container px-8 pt-40 mx-auto text-black lg:px-60">
+      <h2 class="inline-block pt-10 text-8xl">Curious about<br><span class="border-b-8 border-gradient-r-curious">our team</span></h2>
+      
       <div class="grid grid-cols-2 gap-12 my-20">
         <div>
-          <p class="mt-10 text-4xl font-thin">We are hiring and on the lookout for curious minds to join our team.</p>
-          <p class="mt-10 text-4xl font-thin">Check out our latest job posts here</p>
+          <p class="mt-10 text-2xl font-thin">We are hiring and on the lookout for curious minds to join our team.</p>
+          <p class="mt-10 text-2xl font-thin">Check out our latest job posts here</p>
           <p class="py-2 mt-10 text-2xl font-thin text-center text-white bg-blue-400 rounded-md">OPEN POSITION</p>
         </div>
         <div>
