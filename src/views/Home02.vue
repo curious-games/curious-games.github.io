@@ -2,30 +2,30 @@
   <div class="w-screen mx-auto scroll-container">
     <section class="w-screen scroll-sequence__container bugs-show-container">
       <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence bugs-show-sequence"></div>
-      <div class="max-w-full p-16 text-white scroll-sequence__content">
-        <div class="grid mx-0 -mt-half mb-mega floater place-content-start">
+      <div class="max-w-full p-16 font-bold text-white scroll-sequence__content">
+        <div class="container grid px-40 mx-auto -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl">Curious Games is the <b>world’s first virtual sports publisher</b> dedicated to alternative virtual contests.</p>
+            <p class="p-2 text-xl bg-black">Curious Games is the <span class="font-black">world’s first virtual sports publisher</span> dedicated to alternative virtual contests.</p>
           </div>
         </div>
-        <div class="grid mx-0 my-mega floater place-content-end">
+        <div class="container grid px-40 mx-auto my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
-            <p class="text-xl">Delivering the <b>highest quality content with real time data driven AI markets</b> for the most intuitive of gaming experiences.</p>
+            <p class="p-2 text-xl bg-black">Delivering the <span class="font-black">highest quality content with real time data driven AI markets</span> for the most intuitive of gaming experiences.</p>
           </div>
         </div>
-        <div class="grid mx-0 my-mega floater place-content-center">
+        <div class="container grid px-40 mx-auto my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl">Dynamic in game assets produced by <b>Oscar and Bafta award winning VFX artists</b> and interactive entertainment industry veterans. </p>
+            <p class="p-2 text-xl bg-black">Dynamic in game assets produced by <span class="font-black">Oscar and Bafta award winning VFX artists</span> and interactive entertainment industry veterans. </p>
           </div>
         </div>
-        <div class="grid mx-0 my-mega floater place-content-end">
+        <div class="container grid px-40 mx-auto my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
-            <p class="text-xl">Our virtual contests can be <b>streamed seamlessly</b> with mobile optimisation or locally rendered to the venue of your choice. Available through <b>one single API with no additional integration</b>.</p>
+            <p class="p-2 text-xl bg-black">Our virtual contests can be <span class="font-black">streamed seamlessly</span> with mobile optimisation or locally rendered to the venue of your choice. Available through <span class="font-black">one single API with no additional integration</span>.</p>
           </div>
         </div>
-        <div class="grid mx-0 my-mega floater place-content-center">
+        <div class="container grid px-40 mx-auto my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="text-xl">The game logic behind each of our virtual contests are <b>fully customisable</b> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
+            <p class="p-2 text-xl bg-black">The game logic behind each of our virtual contests are <span class="font-black">fully customisable</span> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
           </div>
         </div>
       </div>
@@ -40,28 +40,9 @@
 
     mounted() {
 
-    window.scrollTo(0, 0)
-
-    const frameCount = 20;
-    const currentFrame = index => (
-      `/img/sequence/bugs/${index.toString().padStart(4, '0')}.jpg`
-    )
-
-    const preloadImages = () => {
-      for (let i = 1; i < frameCount; i++) {
-        const img = new Image();
-        img.src = currentFrame(i);
-      }
-    };
-
-    preloadImages()
-
-    // END PRELOAD
-
-
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 90; i ++) {
+      for (let i = 0; i <= 29; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
@@ -396,7 +377,7 @@
         container: '.bugs-show-sequence',
         scrollWith: '.bugs-show-container',
         images: showSequenceImages,
-        imagesRoot: '/img/sequence/bugs/',
+        imagesRoot: '/img/sequence/bugs-30/',
         priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         cover: true,
         playUntil: 'scroll-out',

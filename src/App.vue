@@ -36,6 +36,13 @@
             <ul class="flex-grow block w-full p-4 font-bold tracking-wide uppercase lg:p-0.5 lg:px-2 lg:pb-1 gap-x-8 lg:flex lg:flex-initial lg:w-auto lg:mt-0" :class="menuOpen ? 'block' : 'hidden'">
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  :to="`/${$i18n.locale}/`"
+                  class="text-copy-primary hover:text-gray-400"
+                  >{{ $t('nav.home') }}</router-link
+                >
+              </li>
+              <li class="mb-6 lg:mb-0">
+                <router-link
                   :to="`/${$i18n.locale}/games`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.games') }}</router-link
@@ -126,7 +133,7 @@ export default {
 
 
 <style scoped>
-.link-exact-active, .router-link-active {
+.router-link-exact-active{
   @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
 }
 </style>
