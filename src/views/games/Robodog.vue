@@ -35,3 +35,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.gameslink {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
+}
+</style>

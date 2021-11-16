@@ -44,7 +44,7 @@
               <li class="mb-6 lg:mb-0">
                 <router-link
                   :to="`/${$i18n.locale}/games`"
-                  class="text-copy-primary hover:text-gray-400"
+                  class="text-copy-primary hover:text-gray-400 gameslink"
                   >{{ $t('nav.games') }}</router-link
                 >
               </li>
@@ -89,12 +89,13 @@
     <div class="flex-grow -mt-3 text-lg">
       <router-view />
     </div>
-    <div class="block grid-flow-col overflow-hidden text-white bg-black md:h-36 md:grid auto-cols-max">
-      <div class="inline-block md:table md:h-36">
-          <p class="p-4 align-bottom md:h-36 md:table-cell text-xxs">Curious Games ‘Curious Cluster Limited’ is the owner of all software and all other material on this website.<br>All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games.<br>Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
+    <div class="grid grid-cols-3 overflow-hidden text-white bg-black md:h-36 ">
+
+      <div class="grid col-span-3 md:col-span-1">
+          <p class="self-end p-4 text-xxs">Curious Games ‘Curious Cluster Limited’ is the owner of all software and all other material on this website.<br>All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games.<br>Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
       </div>
-      <div class="inline-block md:table">
-        <img src="/gfx/footer.png" alt="hello" class="align-bottom md:table-cell md:h-36" />
+      <div class="grid col-span-3 md:col-span-1">
+        <img src="/gfx/footer.png" alt="hello" class="self-end place-self-center h-28" />
       </div>
     </div>
     
