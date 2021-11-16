@@ -1,11 +1,11 @@
 module.exports = {
-  // mode: 'jit',
-  // purge: [
-  //   './public/index.html',
-  //   './src/**/*.html',
-  //   './src/**/*.vue',
-  //   './src/**/*.jsx',
-  // ],
+  mode: 'jit',
+  purge: [
+    './public/index.html',
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
   theme: {
     extend: {
       spacing: {
