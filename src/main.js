@@ -6,11 +6,13 @@ import '@/assets/css/tailwind.css'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
+import VueVideoPlayer from 'vue-video-player'
+import 'video.js/dist/video-js.css'
 
 Vue.use(ToggleButton)
 Vue.use(VueFuse)
 Vue.use(VModal)
-
+Vue.use(VueVideoPlayer)
 Vue.config.productionTip = false
 
 // global.jQuery = require('jquery');
