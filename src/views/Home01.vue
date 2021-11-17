@@ -5,27 +5,27 @@
       <div class="max-w-full p-16 font-bold text-white scroll-sequence__content">
         <div class="container grid px-40 mx-auto -mt-half mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="p-2 text-xl bg-black">Curious Games is the <span class="font-black">world’s first virtual sports publisher</span> dedicated to alternative virtual contests.</p>
+            <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Curious Games is the <span class="font-black">world’s first virtual sports publisher</span> dedicated to alternative virtual contests.</p>
           </div>
         </div>
         <div class="container grid px-40 mx-auto my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
-            <p class="p-2 text-xl bg-black">Delivering the <span class="font-black">highest quality content with real time data driven AI markets</span> for the most intuitive of gaming experiences.</p>
+            <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Delivering the <span class="font-black">highest quality content with real time data driven AI markets</span> for the most intuitive of gaming experiences.</p>
           </div>
         </div>
         <div class="container grid px-40 mx-auto my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="p-2 text-xl bg-black">Dynamic in game assets produced by <span class="font-black">Oscar and Bafta award winning VFX artists</span> and interactive entertainment industry veterans. </p>
+            <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Dynamic in game assets produced by <span class="font-black">Oscar and Bafta award winning VFX artists</span> and interactive entertainment industry veterans. </p>
           </div>
         </div>
         <div class="container grid px-40 mx-auto my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
-            <p class="p-2 text-xl bg-black">Our virtual contests can be <span class="font-black">streamed seamlessly</span> with mobile optimisation or locally rendered to the venue of your choice. Available through <span class="font-black">one single API with no additional integration</span>.</p>
+            <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Our virtual contests can be <span class="font-black">streamed seamlessly</span> with mobile optimisation or locally rendered to the venue of your choice. Available through <span class="font-black">one single API with no additional integration</span>.</p>
           </div>
         </div>
         <div class="container grid px-40 mx-auto my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="p-2 text-xl bg-black">The game logic behind each of our virtual contests are <span class="font-black">fully customisable</span> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
+            <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">The game logic behind each of our virtual contests are <span class="font-black">fully customisable</span> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
     
       const showSequenceImages = [];
 
-      for (let i = 0; i <= 29; i ++) {
+      for (let i = 0; i <= 45; i ++) {
         showSequenceImages.push(`${`000${i}`.slice(-4)}.jpg`);
       }
       
@@ -380,7 +380,7 @@
         container: '.robodog-show-sequence',
         scrollWith: '.robodog-show-container',
         images: showSequenceImages,
-        imagesRoot: '/img/sequence/robodog-30/',
+        imagesRoot: '/img/sequence/k9/',
         priorityFrames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         cover: true,
         playUntil: 'scroll-out',
