@@ -92,7 +92,7 @@
     <div class="grid grid-cols-3 overflow-hidden text-white bg-black md:h-36 ">
 
       <div class="grid col-span-3 md:col-span-1">
-          <p class="self-end p-4 text-xxs">Curious Games ‘Curious Cluster Limited’ is the owner of all software and all other material on this website.<br>All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games.<br>Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
+          <p class="self-end p-4 text-xxs">Curious Games is the owner of all software and all other material on this website. All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games. Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
       </div>
       <div class="grid col-span-3 md:col-span-1">
         <img src="/gfx/footer.png" alt="hello" class="self-end place-self-center h-28" />
