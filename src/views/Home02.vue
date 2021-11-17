@@ -3,7 +3,12 @@
     <section class="w-screen scroll-sequence__container bugs-show-container">
       <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence bugs-show-sequence"></div>
       <div class="max-w-full p-16 font-bold text-white scroll-sequence__content">
-        <div class="container grid px-40 mx-auto -mt-half mb-mega floater place-content-start">
+        <div class="container grid px-40 mx-auto mt-landing mb-mega floater place-content-center">
+          <div class="max-w-md">
+            <p class="p-2 font-thin text-9xl"><span class="block md:mr-20">curious</span> <span class="block md:ml-20">games</span></p>
+          </div>
+        </div>
+        <div class="container grid px-40 mx-auto mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Curious Games is the <span class="font-black">world’s first virtual sports publisher</span> dedicated to alternative virtual contests.</p>
           </div>
