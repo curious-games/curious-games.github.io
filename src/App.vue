@@ -47,7 +47,6 @@
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.games') }}</router-link
                 >
-              </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
                   :to="`/${$i18n.locale}/partners`"
@@ -72,7 +71,6 @@
             </ul>
           </div>
         </nav>
-        
       </header>
       <div v-if="menuOpen" class="outside" v-on:click="away()"></div>
     </div>
@@ -96,12 +94,10 @@
 <script>
 export default {
   name: "app",
-  
   data() {
     return {
       menuOpen: false,
     };
-    
   },
   methods: {
     toggleMenu() {
@@ -116,15 +112,14 @@ export default {
 
 
 <style scoped>
+.router-link-exact-active {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
+}
 .outside {
-  
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0px;
   left: 0px;
-}
-.router-link-exact-active {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
 }
 </style>

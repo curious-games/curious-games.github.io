@@ -34,6 +34,7 @@ export default new Router({
         {
           path: 'games/cockroachracers',
           name: 'games.cockroachracers',
+          props: { gamePage: true },
           component: () => import('./views/games/Cockroachracers.vue')
         },
         {

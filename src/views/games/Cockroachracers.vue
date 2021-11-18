@@ -71,10 +71,8 @@
           }],
           poster: "/mov/CockroachRacers.jpg",
         },
-        
       }
     },
-    
     mounted () {
       window.scrollTo(0, 0)
     },
