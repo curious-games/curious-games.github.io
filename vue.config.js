@@ -7,7 +7,7 @@ module.exports = {
       enableInSFC: false
     }
   },
-  devServer: {
-    host: 'localhost'
-  }
+  // devServer: {
+  //   host: 'localhost'
+  // }
 }

@@ -55,7 +55,6 @@
 </template>
 
 <script>
-  require('@/assets/css/detail.css')
   export default {
     data() {
       return {
@@ -71,9 +70,11 @@
             src: "/mov/CockroachRacers.mp4"
           }],
           poster: "/mov/CockroachRacers.jpg",
-        }
+        },
+        
       }
     },
+    
     mounted () {
       window.scrollTo(0, 0)
     },
@@ -84,3 +85,7 @@
     }
   }
 </script>
+
+<style scoped>
+  @import url('../../assets/css/detail.css');
+</style>

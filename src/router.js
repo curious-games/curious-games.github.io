@@ -32,23 +32,8 @@ export default new Router({
           component: () => import('./views/Games.vue')
         },
         {
-          path: 'partners',
-          name: 'partners',
-          component: () => import('./views/Partners.vue')
-        },
-        {
-          path: 'career',
-          name: 'career',
-          component: () => import('./views/Career.vue')
-        },
-        {
-          path: 'contact',
-          name: 'contact',
-          component: () => import('./views/Contact.vue')
-        },
-        {
           path: 'games/cockroachracers',
-          name: 'cockroachracers',
+          name: 'games.cockroachracers',
           component: () => import('./views/games/Cockroachracers.vue')
         },
         {
@@ -70,7 +55,23 @@ export default new Router({
           path: 'games/catchacrab',
           name: 'catchacrab',
           component: () => import('./views/games/Catchacrab.vue')
+        },
+        {
+          path: 'partners',
+          name: 'partners',
+          component: () => import('./views/Partners.vue')
+        },
+        {
+          path: 'career',
+          name: 'career',
+          component: () => import('./views/Career.vue')
+        },
+        {
+          path: 'contact',
+          name: 'contact',
+          component: () => import('./views/Contact.vue')
         }
+        
       ]
     }
   ]
