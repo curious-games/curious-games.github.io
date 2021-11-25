@@ -5,11 +5,11 @@
       
       <div class="grid grid-cols-3 gap-12 my-10">
         <div class="col-span-3 md:col-span-2">
-          <p class="mt-5 text-lg font-thin">We are hiring and on the lookout for curious minds to join our team.</p>
-          <p class="mt-5 text-lg font-thin">Check out our latest job posts here</p>
+          <p class="mt-5 text-lg md:font-thin">We are hiring and on the lookout for curious minds to join our team.</p>
+          <p class="mt-5 text-lg md:font-thin">Check out our latest job posts here</p>
         </div>
         <div class="col-span-2">
-          <p class="px-2 py-2 mt-5 text-lg font-thin text-center text-white bg-blue-400 rounded-md">OPEN POSITION</p>
+          <p class="px-2 py-2 mt-5 text-lg text-center text-white bg-blue-400 rounded-md md:font-thin">OPEN POSITION</p>
         </div>
         <div class="order-2 col-span-1 col-start-3 md:row-span-2 md:row-start-1">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" class="h-30">
