@@ -11,8 +11,8 @@
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Machina Races</span> - CyberRaces</p></div>
         <div class="col-span-6 md:col-span-3 md:col-start-2">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
-          <p class="mb-4">Prepare yourself for the worlds first photorealistic rendered cock roach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).</p>
-          <p class="mb-4">The virtual race is live rendered with digital 3D action and RNG based. </p>
+          <p class="mb-4">Pick your winner for a fast-paced single or multiple circuit virtual speedway contest. Fast paced 360-degree photo-real track environment with straight out of Hollywood animated speed machines and dynamic race monitor with live overlay of competitor positions – CyberRaces.<br>
+          The virtual race is live rendered with digital 3D action and RNG based. </p>
           <p class="mb-4">Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p>
           <p class="mb-4">Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>
         </div>
