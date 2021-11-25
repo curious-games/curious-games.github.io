@@ -3,32 +3,34 @@
     <section class="w-screen scroll-sequence__container bugs-show-container">
       <div class="sticky inset-0 h-screen bg-center bg-no-repeat bg-cover -z-5 scroll-sequence bugs-show-sequence"></div>
       <div class="max-w-full p-16 font-bold text-white scroll-sequence__content">
-        <div class="container grid px-40 mx-auto mt-landing mb-mega floater place-content-center">
+        <div class="container grid mx-auto md:px-40 mt-landing mb-mega floater place-content-center">
           <div class="max-w-md">
-            <p class="p-2 font-thin text-9xl"><span class="block md:mr-20">curious</span> <span class="block md:ml-20">games</span></p>
+            <p class="p-2 font-thin text-8xl md:text-9xl">
+              <span class="block md:mr-20">curious</span> <span class="block ml-0 md:ml-20">games</span>
+              </p>
           </div>
         </div>
-        <div class="container grid px-40 mx-auto mb-mega floater place-content-start">
+        <div class="container grid mx-auto md:px-40 mb-mega floater place-content-start">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Curious Games is the <span class="font-black">world’s first virtual sports publisher</span> dedicated to alternative virtual contests.</p>
           </div>
         </div>
-        <div class="container grid px-40 mx-auto my-mega floater place-content-end">
+        <div class="container grid mx-auto md:px-40 my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Delivering the <span class="font-black">highest quality content with real time data driven AI markets</span> for the most intuitive of gaming experiences.</p>
           </div>
         </div>
-        <div class="container grid px-40 mx-auto my-mega floater place-content-center">
+        <div class="container grid mx-auto md:px-40 my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Dynamic in game assets produced by <span class="font-black">Oscar and Bafta award winning VFX artists</span> and interactive entertainment industry veterans. </p>
           </div>
         </div>
-        <div class="container grid px-40 mx-auto my-mega floater place-content-end">
+        <div class="container grid mx-auto md:px-40 my-mega floater place-content-end">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious place-self-end">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">Our virtual contests can be <span class="font-black">streamed seamlessly</span> with mobile optimisation or locally rendered to the venue of your choice. Available through <span class="font-black">one single API with no additional integration</span>.</p>
           </div>
         </div>
-        <div class="container grid px-40 mx-auto my-mega floater place-content-center">
+        <div class="container grid mx-auto md:px-40 my-mega floater place-content-center">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black rounded-md bg-opacity-30">The game logic behind each of our virtual contests are <span class="font-black">fully customisable</span> to meet specific content or regulatory requirements including market localisation and branded or sponsored content.</p>
           </div>
