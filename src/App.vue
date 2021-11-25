@@ -6,7 +6,7 @@
         <nav class="container relative px-8 pt-8 pb-5 mx-auto lg:flex lg:items-center lg:justify-between md:flex-wrap">
           <div class="flex items-center justify-between lg:flex-none">
             <div class="h-20 -mt-2 lg:mt-3 lg:h-32">
-              <router-link :to="`/${$i18n.locale}/`">
+              <router-link :to="`/${$i18n.locale}/`" @click.native="toggleMenu">
                 <img
                   src="/gfx/CG_Logo_Black.png"
                   alt="logo"
@@ -36,6 +36,7 @@
             <ul class="flex-grow block w-full p-4 font-bold tracking-wide uppercase lg:p-0.5 lg:px-2 lg:pb-1 gap-x-8 lg:flex lg:flex-initial lg:w-auto lg:mt-0" :class="menuOpen ? 'block' : 'hidden'">
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  @click.native="toggleMenu"
                   :to="`/${$i18n.locale}/`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.home') }}</router-link
@@ -43,12 +44,14 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  @click.native="toggleMenu"
                   :to="`/${$i18n.locale}/games`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.games') }}</router-link
                 >
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  @click.native="toggleMenu"
                   :to="`/${$i18n.locale}/partners`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.partners') }}</router-link
@@ -56,6 +59,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  @click.native="toggleMenu"
                   :to="`/${$i18n.locale}/career`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.career') }}</router-link
@@ -63,6 +67,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
+                  @click.native="toggleMenu"
                   :to="`/${$i18n.locale}/contact`"
                   class="text-copy-primary hover:text-gray-400"
                   >{{ $t('nav.contact') }}</router-link
