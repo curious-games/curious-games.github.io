@@ -9,7 +9,7 @@
           <span class="border-b-8 border-gradient-r-curious">＜</span>
         </router-link>
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Chase A Crab</span></p></div>
-        <div class="col-span-6 md:col-span-3 md:col-start-2">
+        <div class="col-span-6 md:col-span-3 md:col-start-2 md:font-thin">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
           <p class="mb-4">Wisk yourself away back to the summer beach paradise and watch your favourite hermit crab compete in the world’s first virtual crab race. <br>The virtual race is live rendered with digital 3D action and RNG based. </p>
           <p class="mb-4">Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p>
@@ -17,7 +17,7 @@
         </div>
         <div class="col-span-6 md:col-span-2 md:text-right">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">Specifications</h2>
-          <div class="grid grid-cols-2 gap-4 ">
+          <div class="grid grid-cols-2 gap-4 md:font-thin">
             <div class="text-gray-600">Release Date</div><div class="">09.02.2022</div>
             <div class="text-gray-600">Game type</div><div class="">Video slot</div>
             <div class="text-gray-600">Mobile</div><div class="">Yes</div>

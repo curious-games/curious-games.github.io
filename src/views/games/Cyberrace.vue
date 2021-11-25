@@ -9,7 +9,7 @@
           <span class="border-b-8 border-gradient-r-curious">＜</span>
         </router-link>
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Machina Races</span> - CyberRaces</p></div>
-        <div class="col-span-6 md:col-span-3 md:col-start-2">
+        <div class="col-span-6 md:col-span-3 md:col-start-2 md:font-thin">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
           <p class="mb-4">Pick your winner for a fast-paced single or multiple circuit virtual speedway contest. Fast paced 360-degree photo-real track environment with straight out of Hollywood animated speed machines and dynamic race monitor with live overlay of competitor positions – CyberRaces.<br>
           The virtual race is live rendered with digital 3D action and RNG based. </p>
@@ -18,7 +18,7 @@
         </div>
         <div class="col-span-6 md:col-span-2 md:text-right">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">Specifications</h2>
-          <div class="grid grid-cols-2 gap-4 ">
+          <div class="grid grid-cols-2 gap-4 md:font-thin">
             <div class="text-gray-600">Release Date</div><div class="">09.02.2022</div>
             <div class="text-gray-600">Game type</div><div class="">Video slot</div>
             <div class="text-gray-600">Mobile</div><div class="">Yes</div>

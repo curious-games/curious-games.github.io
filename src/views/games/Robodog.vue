@@ -9,23 +9,17 @@
           <span class="border-b-8 border-gradient-r-curious">＜</span>
         </router-link>
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p><span class="border-b-8 border-gradient-r-curious">Machina Races</span> - K9 Edition</p></div>
-        <div class="col-span-6 md:col-span-3 md:col-start-2">
+        <div class="col-span-6 md:col-span-3 md:col-start-2 md:font-thin">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
-
           <p class="mb-4">In the not too distant future where the dust has yet to settle on Mars comes the sustainable future of Grey Hound racing, ‘Robodogs’. </p>
-
           <p class="mb-4">Pick your champion and watch them race over and over in breath-taking 3D, where each champion K9 tests their varying attributes and styles against one another.</p> 
-
           <p class="mb-4">The virtual race is live rendered with digital 3D action and RNG based. </p>
-
           <p class="mb-4">Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p>
-
           <p class="mb-4">Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>
-
         </div>
         <div class="col-span-6 md:col-span-2 md:text-right">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">Specifications</h2>
-          <div class="grid grid-cols-2 gap-4 ">
+          <div class="grid grid-cols-2 gap-4 md:font-thin">
             <div class="text-gray-600">Release Date</div><div class="">09.02.2022</div>
             <div class="text-gray-600">Game type</div><div class="">Video slot</div>
             <div class="text-gray-600">Mobile</div><div class="">Yes</div>
