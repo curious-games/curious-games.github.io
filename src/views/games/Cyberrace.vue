@@ -29,33 +29,30 @@
             <div class="text-gray-600">Maximum exposure</div><div class="">666,600</div>
           </div>
         </div>
-        <div class="mt-24 cols-span-6 md:col-span-5 md:col-start-2">
-          <video-player  class="vjs-custom-skin"
-            ref="videoPlayer"
-            :options="playerOptions"
-            :playsinline="true"
-            :volume="0"
-            :volumeControl="false"
-            @play="onPlayerPlay($event)"
-            @pause="onPlayerPause($event)"
-            @ended="onPlayerEnded($event)"
-            @loadeddata="onPlayerLoadeddata($event)"
-            @waiting="onPlayerWaiting($event)"
-            @playing="onPlayerPlaying($event)"
-            @timeupdate="onPlayerTimeupdate($event)"
-            @canplay="onPlayerCanplay($event)"
-            @canplaythrough="onPlayerCanplaythrough($event)"
-            @ready="playerReadied"
-            @statechanged="playerStateChanged($event)">
-          </video-player>
-        </div>
+        <video-player class="vjs-custom-skin"
+          ref="videoPlayer"
+          :options="playerOptions"
+          :playsinline="true"
+          :volume="0"
+          :volumeControl="false"
+          @play="onPlayerPlay($event)"
+          @pause="onPlayerPause($event)"
+          @ended="onPlayerEnded($event)"
+          @loadeddata="onPlayerLoadeddata($event)"
+          @waiting="onPlayerWaiting($event)"
+          @playing="onPlayerPlaying($event)"
+          @timeupdate="onPlayerTimeupdate($event)"
+          @canplay="onPlayerCanplay($event)"
+          @canplaythrough="onPlayerCanplaythrough($event)"
+          @ready="playerReadied"
+          @statechanged="playerStateChanged($event)">
+        </video-player>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  require('@/assets/css/detail.css')
   export default {
     data() {
       return {
@@ -84,3 +81,15 @@
     }
   }
 </script>
+
+<style scoped>
+  @import url('../../assets/css/detail.css');
+  .vjs-custom-skin {
+    @apply col-span-6 h-auto md:col-span-5 md:col-start-2 mt-24;
+  }
+</style>
+<style>
+.vjs_video_3-dimensions {
+    @apply h-52 md:h-109 lg:h-160;
+  }
+</style>

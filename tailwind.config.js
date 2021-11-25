@@ -12,6 +12,7 @@ module.exports = {
         '29': '6.95rem',
         '80': '20rem',
         '108': '27rem',
+        '109': '30rem',
         '160': '40rem',
         'half' :'50vh',
         'mega' :'150vh',
