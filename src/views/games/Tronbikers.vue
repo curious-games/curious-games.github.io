@@ -82,3 +82,14 @@
     }
   }
 </script>
+<style scoped>
+  @import url('../../assets/css/detail.css');
+  .vjs-custom-skin {
+    @apply col-span-6 h-auto md:col-span-5 md:col-start-2 mt-24;
+  }
+</style>
+<style>
+.vjs_video_3-dimensions {
+    @apply h-52 md:h-109 lg:h-160;
+  }
+</style>
