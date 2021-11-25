@@ -115,14 +115,8 @@ export default {
 
 
 <style scoped>
-.router-link-exact-active {
+/* .router-link-exact-active {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
-}
-.outside {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
+} */
+
 </style>
