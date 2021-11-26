@@ -88,7 +88,7 @@
   }
 </style>
 <style>
-.vjs_video_3-dimensions {
+  .vjs_video_3-dimensions {
     @apply h-52 md:h-109 lg:h-160;
   }
 </style>
