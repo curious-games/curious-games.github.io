@@ -22,57 +22,55 @@ export default new Router({
       children: [
         {
           path: '/',
-          name: 'home',
+          name: 'Home',
           // component: () => import('./views/Home.vue')
           component: () => import(`./views/${pages[Math.floor(Math.random()*pages.length)]}`)
         },
         {
           path: 'games',
-          name: 'games',
+          name: 'Games',
           component: () => import('./views/Games.vue')
         },
         {
           path: 'games/cockroachracers',
-          name: 'games.cockroachracers',
-          props: { gamePage: true },
+          name: 'Cockroachracers',
           component: () => import('./views/games/Cockroachracers.vue')
         },
         {
           path: 'games/robodog',
-          name: 'robodog',
+          name: 'Robodog',
           component: () => import('./views/games/Robodog.vue')
         },
         {
           path: 'games/cyberrace',
-          name: 'cyberrace',
+          name: 'Cyberrace',
           component: () => import('./views/games/Cyberrace.vue')
         },
         {
           path: 'games/tronbikers',
-          name: 'tronbikers',
+          name: 'Tronbikers',
           component: () => import('./views/games/Tronbikers.vue')
         },
         {
           path: 'games/catchacrab',
-          name: 'catchacrab',
+          name: 'Catchacrab',
           component: () => import('./views/games/Catchacrab.vue')
         },
         {
           path: 'partners',
-          name: 'partners',
+          name: 'Partners',
           component: () => import('./views/Partners.vue')
         },
         {
           path: 'career',
-          name: 'career',
+          name: 'Career',
           component: () => import('./views/Career.vue')
         },
         {
           path: 'contact',
-          name: 'contact',
+          name: 'Contact',
           component: () => import('./views/Contact.vue')
         }
-        
       ]
     }
   ]
