@@ -1,8 +1,19 @@
 <template>
   <div class="pt-28">
-    <div class="relative h-80 md:h-108">
-      <div class="absolute inset-0 z-0 bg-center bg-cover" style="background-image: url('/img/games/CockroachRacers.png')"></div>
-    </div>
+    <carousel :paginationActiveColor="'#FF0099'" :paginationColor="'#4CB7EB'" :per-page="1" :autoplay="true" :autoplayTimeout="4000" :loop="true" :mouse-drag="false">
+        <slide>
+          <div class="bg-center bg-cover h-80 md:h-108" style="background-image: url('/img/games/CockroachRacers.png')"></div>
+        </slide>
+        <slide>
+          <div class="bg-center bg-cover h-80 md:h-108" style="background-image: url('/img/games/CatchACrab.png')"></div>
+        </slide>
+        <slide>
+          <div class="bg-center bg-cover h-80 md:h-108" style="background-image: url('/img/games/CockroachRacers.png')"></div>
+        </slide>
+        <slide>
+          <div class="bg-center bg-cover h-80 md:h-108" style="background-image: url('/img/games/CatchACrab.png')"></div>
+        </slide>
+      </carousel>
     <div class="container relative px-4 py-10 mx-auto text-black md:px-0">
       <div class="grid grid-cols-6 gap-4 auto-cols-max">
         <router-link :to="`/${$i18n.locale}/games/`" class="mb-8 text-2xl font-semibold md:text-6xl md:text-right md:mr-6">
@@ -52,7 +63,12 @@
 </template>
 
 <script>
+  import { Carousel, Slide } from 'vue-carousel';
   export default {
+    components: {
+      Carousel,
+      Slide
+    },
     data() {
       return {
         playerOptions: {
@@ -87,8 +103,24 @@
     @apply col-span-6 h-auto md:col-span-5 md:col-start-2 mt-24;
   }
 </style>
-<style>
+<style lang="scss">
   .vjs_video_3-dimensions {
     @apply h-52 md:h-109 lg:h-160;
+  }
+  .VueCarousel-pagination {
+    position: relative;
+    width: 100% !important;
+  }
+  .VueCarousel-dot-container {
+    margin-top: -3rem !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .VueCarousel-dot {
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 0 !important;
   }
 </style>
