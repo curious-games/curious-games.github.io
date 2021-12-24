@@ -1,6 +1,6 @@
 <template>
   <div class="pt-28">
-    <carousel :paginationActiveColor="'#FF0099'" :paginationColor="'#4CB7EB'" :per-page="1" :autoplay="true" :autoplayTimeout="4000" :loop="true" :mouse-drag="false">
+    <carousel :paginationPosition="'bottom-overlay'" :paginationActiveColor="'#FF0099'" :paginationColor="'#4CB7EB'" :per-page="1" :autoplay="true" :autoplayTimeout="4000" :loop="true" :mouse-drag="false">
         <slide>
           <div class="bg-center bg-cover h-80 md:h-108" style="background-image: url('/img/games/CockroachRacers.png')"></div>
         </slide>
@@ -107,16 +107,8 @@
   .vjs_video_3-dimensions {
     @apply h-52 md:h-109 lg:h-160;
   }
-  .VueCarousel-pagination {
-    position: relative;
-    width: 100% !important;
-  }
-  .VueCarousel-dot-container {
-    margin-top: -3rem !important;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .VueCarousel-pagination--bottom-overlay{
+    bottom: 1rem !important;
   }
   .VueCarousel-dot {
     width: 30px !important;
