@@ -6,9 +6,6 @@
         <div class="bg-center bg-cover h-80 md:h-108" :style="{ backgroundImage: 'url(' + slide.slide + ')' }"></div>
       </slide>
     </carousel>
-    <!-- <div class="relative h-80 md:h-108">
-      <div class="absolute inset-0 z-0 bg-center bg-cover" :style="{ backgroundImage: 'url(' + game.image + ')' }"></div>
-    </div> -->
     <div class="container relative px-4 py-10 mx-auto text-black md:px-0">
       <div class="grid grid-cols-6 gap-4 auto-cols-max">
         <router-link :to="`/${$i18n.locale}/games/`" class="mb-8 text-2xl font-semibold md:text-6xl md:text-right md:mr-6">
@@ -33,7 +30,7 @@
           </div>
         </div>
         <div class="col-span-6 md:col-start-2 mt-24">
-          <vue-plyr :options="options">
+          <vue-plyr :options="plyroptions">
             <video
               playsinline
               :data-poster="game.poster"
@@ -63,6 +60,9 @@
     data() {
       return {
         games: json.games,
+        plyroptions: {
+          controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
+        },
       }
     },
     methods: {
