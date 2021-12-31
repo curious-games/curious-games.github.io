@@ -8,9 +8,13 @@
     </carousel>
     <div class="container relative px-4 py-10 mx-auto text-black md:px-0">
       <div class="grid grid-cols-6 gap-4 auto-cols-max">
-        <router-link :to="`/${$i18n.locale}/games/`" class="mb-8 text-2xl font-semibold md:text-6xl md:text-right md:mr-6">
-          <span class="border-b-8 border-gradient-r-curious">＜</span>
-        </router-link>
+        <div class="relative">
+          <router-link :to="`/${$i18n.locale}/games/`" class="absolute top-0 right-0 w-16 mb-8 md:mr-6">
+            <svg class="w-10 h-10 md:w-16 md:h-16 fill-cur-blue" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path d="M100 15a85 85 0 1 0 85 85 84.93 84.93 0 0 0-85-85Zm0 150a65 65 0 1 1 65-65 64.87 64.87 0 0 1-65 65Zm16.5-107.5a9.67 9.67 0 0 0-14 0L74 86a19.92 19.92 0 0 0 0 28.5l28.5 28.5a9.9 9.9 0 0 0 14-14l-28-29L117 71.5c3.5-3.5 3.5-10-.5-14Z"/>
+            </svg>
+          </router-link>
+        </div>
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p v-html="game.title"></p></div>
         <div class="col-span-6 md:col-span-3 md:col-start-2 md:font-thin">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
@@ -19,17 +23,17 @@
         <div class="col-span-6 md:col-span-2 md:text-right">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">Specifications</h2>
           <div class="grid grid-cols-2 gap-4 md:font-thin">
-            <div class="text-gray-600">Release Date</div><div class="">{{game.date}}</div>
-            <div class="text-gray-600">Game type</div><div class="">{{game.type}}</div>
-            <div class="text-gray-600">Mobile</div><div class="">{{game.mobile}}</div>
-            <div class="text-gray-600">RTP</div><div class="">{{game.rtp}}</div>
-            <div class="text-gray-600">Game resolution</div><div class="">{{game.resolution}}</div>
-            <div class="text-gray-600">Paylines</div><div class="">{{game.paylines}}</div>
-            <div class="text-gray-600">Volatility</div><div class="">{{game.volatility}}</div>
-            <div class="text-gray-600">Maximum exposure</div><div class="">{{game.exposure}}</div>
+            <div v-if="game.date" class="text-gray-600">Release Date</div><div class="">{{game.date}}</div>
+            <div v-if="game.type" class="text-gray-600">Game type</div><div class="">{{game.type}}</div>
+            <div v-if="game.mobile" class="text-gray-600">Mobile</div><div class="">{{game.mobile}}</div>
+            <div v-if="game.rtp" class="text-gray-600">RTP</div><div class="">{{game.rtp}}</div>
+            <div v-if="game.resolution" class="text-gray-600">Game resolution</div><div class="">{{game.resolution}}</div>
+            <div v-if="game.paylines" class="text-gray-600">Paylines</div><div class="">{{game.paylines}}</div>
+            <div v-if="game.volatility" class="text-gray-600">Volatility</div><div class="">{{game.volatility}}</div>
+            <div v-if="game.exposure" class="text-gray-600">Maximum exposure</div><div class="">{{game.exposure}}</div>
           </div>
         </div>
-        <div class="col-span-6 md:col-start-2 mt-24">
+        <div class="col-span-6 mt-24 md:col-start-2" v-if="game.video">
           <vue-plyr :options="plyroptions">
             <video
               playsinline
@@ -74,7 +78,6 @@
       window.scrollTo(0, 0)
       this.$nextTick().then(() => document.body.classList.add('gamepage'))
     },
-    
   }
 </script>
 <style lang="scss">
@@ -90,4 +93,10 @@
     height: 5px !important;
     border-radius: 0 !important;
   }
+  #color1 {
+  stop-color: red
+}
+#color2 {
+  stop-color: blue
+}
 </style>

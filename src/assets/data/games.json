@@ -46,9 +46,7 @@
       "resolution": "16:9",
       "paylines": "Fixed 20",
       "volatility": "High",
-      "exposure": "666,600",
-      "poster": "/mov/CockroachRacers.jpg",
-      "video": "/mov/CockroachRacers.mp4"
+      "exposure": "666,600"
     },
     {
       "id": 3,
@@ -69,9 +67,7 @@
       "resolution": "16:9",
       "paylines": "Fixed 20",
       "volatility": "High",
-      "exposure": "666,600",
-      "poster": "/mov/CockroachRacers.jpg",
-      "video": "/mov/CockroachRacers.mp4"
+      "exposure": "666,600"
     },
     {
       "id": 4,
@@ -92,9 +88,7 @@
       "resolution": "16:9",
       "paylines": "Fixed 20",
       "volatility": "High",
-      "exposure": "666,600",
-      "poster": "/mov/CockroachRacers.jpg",
-      "video": "/mov/CockroachRacers.mp4"
+      "exposure": "666,600"
     },
     {
       "id": 5,
@@ -115,9 +109,7 @@
       "resolution": "16:9",
       "paylines": "Fixed 20",
       "volatility": "High",
-      "exposure": "666,600",
-      "poster": "/mov/CockroachRacers.jpg",
-      "video": "/mov/CockroachRacers.mp4"
+      "exposure": "666,600"
     }
   ]
 }

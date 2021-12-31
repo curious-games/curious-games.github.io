@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'jit',
+  // mode: 'jit',
   purge: [
     './public/index.html',
     './src/**/*.html',
@@ -39,8 +39,11 @@ module.exports = {
         '10': '10px',
         '11': '11px',
         '12': '12px',
-      }
-
+      },
+      fill: theme => ({
+        'cur-pink': '#FF0099',
+        'cur-blue': '#4CB7EB',
+      })
     },
     linearBorderGradients: {
       directions: { // defaults to these values
