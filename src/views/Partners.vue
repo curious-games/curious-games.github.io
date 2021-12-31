@@ -26,6 +26,7 @@
 export default {
   mounted () {
     window.scrollTo(0, 0)
+    this.$nextTick().then(() => document.body.classList.remove('gamepage'))
   }
 }
 </script>

@@ -46,6 +46,7 @@
   export default {
 
     mounted() {
+      this.$nextTick().then(() => document.body.classList.remove('gamepage'))
 
       const showSequenceImages = [];
 
