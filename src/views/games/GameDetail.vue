@@ -18,19 +18,22 @@
         <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl"><p v-html="game.title"></p></div>
         <div class="col-span-6 md:col-span-3 md:col-start-2 md:font-thin">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
-          <div class="about" v-html="game.about"></div>
+          <div class="text-black about" v-html="game.about"></div>
         </div>
         <div class="col-span-6 md:col-span-2 md:text-right">
           <h2 class="mb-8 text-xl font-semibold md:text-3xl">Specifications</h2>
           <div class="grid grid-cols-2 gap-4 md:font-thin">
-            <div v-if="game.date" class="text-gray-600">Release Date</div><div class="">{{game.date}}</div>
-            <div v-if="game.type" class="text-gray-600">Game type</div><div class="">{{game.type}}</div>
-            <div v-if="game.mobile" class="text-gray-600">Mobile</div><div class="">{{game.mobile}}</div>
-            <div v-if="game.rtp" class="text-gray-600">RTP</div><div class="">{{game.rtp}}</div>
-            <div v-if="game.resolution" class="text-gray-600">Game resolution</div><div class="">{{game.resolution}}</div>
-            <div v-if="game.paylines" class="text-gray-600">Paylines</div><div class="">{{game.paylines}}</div>
-            <div v-if="game.volatility" class="text-gray-600">Volatility</div><div class="">{{game.volatility}}</div>
-            <div v-if="game.exposure" class="text-gray-600">Maximum exposure</div><div class="">{{game.exposure}}</div>
+            <div v-if="game.date" class="text-gray-800">Release Date</div><div class="text-gray-500">{{game.date}}</div>
+            <div v-if="game.type" class="text-gray-800">Game type</div><div class="text-gray-500">{{game.type}}</div>
+            <div v-if="game.mobile" class="text-gray-800">Mobile</div><div class="text-gray-500">{{game.mobile}}</div>
+            <div v-if="game.rng" class="text-gray-800">RNG Certified</div><div class="text-gray-500">{{game.rng}}</div>
+            <div v-if="game.resolution" class="text-gray-800">Game resolution</div><div class="text-gray-500">{{game.resolution}}</div>
+            <div v-if="game.duration" class="text-gray-800">Race Duration</div><div class="text-gray-500">{{game.duration}}</div>
+
+            <!-- <div v-if="game.rtp" class="text-gray-800">RTP</div><div class="text-gray-500">{{game.rtp}}</div>
+            <div v-if="game.paylines" class="text-gray-800">Paylines</div><div class="text-gray-500">{{game.paylines}}</div>
+            <div v-if="game.volatility" class="text-gray-800">Volatility</div><div class="text-gray-500">{{game.volatility}}</div>
+            <div v-if="game.exposure" class="text-gray-800">Maximum exposure</div><div class="text-gray-500">{{game.exposure}}</div> -->
           </div>
         </div>
         <div class="col-span-6 mt-24 md:col-start-2" v-if="game.video">
