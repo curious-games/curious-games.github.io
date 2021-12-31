@@ -52,7 +52,7 @@
   import json from '../../assets/data/games.json'
   import { Carousel, Slide } from 'vue-carousel';
   export default {
-    props: ['slug'],
+    props: ['slug' ],
     components: {
       Carousel,
       Slide
@@ -66,13 +66,15 @@
       }
     },
     methods: {
-    filteredGame(slug) {
+      filteredGame(slug) {
         return this.games.filter(game => game.slug === slug)
       }
     },
     mounted() {
       window.scrollTo(0, 0)
+      this.$nextTick().then(() => document.body.classList.add('gamepage'))
     },
+    
   }
 </script>
 <style lang="scss">

@@ -46,7 +46,7 @@
                 <router-link
                   @click.native="menuOpen = !menuOpen"
                   :to="`/${$i18n.locale}/games`"
-                  class="text-copy-primary hover:text-gray-400 gamepage"
+                  class="text-copy-primary hover:text-gray-400 game"
                   >{{ $t('nav.games') }}</router-link
                 >
               </li>
@@ -101,6 +101,7 @@ export default {
   data() {
     return {
       menuOpen: false,
+      isGame: false
     };
   },
   methods: {
@@ -115,7 +116,9 @@ export default {
 </script>
 
 <style scoped>
-/* .router-link-exact-active {
+.router-link-exact-active,
+.gamepage .game
+{
   @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
-} */
+}
 </style>

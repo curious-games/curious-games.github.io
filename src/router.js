@@ -37,31 +37,6 @@ export default new Router({
           component: () => import('./views/games/GameDetail.vue'),
           props: true
         },
-        // {
-        //   path: 'games/cockroachracers',
-        //   name: 'Cockroachracers',
-        //   component: () => import('./views/games/Cockroachracers.vue')
-        // },
-        // {
-        //   path: 'games/robodog',
-        //   name: 'Robodog',
-        //   component: () => import('./views/games/Robodog.vue')
-        // },
-        // {
-        //   path: 'games/cyberrace',
-        //   name: 'Cyberrace',
-        //   component: () => import('./views/games/Cyberrace.vue')
-        // },
-        // {
-        //   path: 'games/tronbikers',
-        //   name: 'Tronbikers',
-        //   component: () => import('./views/games/Tronbikers.vue')
-        // },
-        // {
-        //   path: 'games/catchacrab',
-        //   name: 'Catchacrab',
-        //   component: () => import('./views/games/Catchacrab.vue')
-        // },
         {
           path: 'partners',
           name: 'Partners',
