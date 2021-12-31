@@ -29,33 +29,39 @@ export default new Router({
         {
           path: 'games',
           name: 'Games',
-          component: () => import('./views/Games.vue')
+          component: () => import('./views/games/Games.vue')
         },
         {
-          path: 'games/cockroachracers',
-          name: 'Cockroachracers',
-          component: () => import('./views/games/Cockroachracers.vue')
+          path: 'games/:slug',
+          name: 'GameDetail',
+          component: () => import('./views/games/GameDetail.vue'),
+          props: true
         },
-        {
-          path: 'games/robodog',
-          name: 'Robodog',
-          component: () => import('./views/games/Robodog.vue')
-        },
-        {
-          path: 'games/cyberrace',
-          name: 'Cyberrace',
-          component: () => import('./views/games/Cyberrace.vue')
-        },
-        {
-          path: 'games/tronbikers',
-          name: 'Tronbikers',
-          component: () => import('./views/games/Tronbikers.vue')
-        },
-        {
-          path: 'games/catchacrab',
-          name: 'Catchacrab',
-          component: () => import('./views/games/Catchacrab.vue')
-        },
+        // {
+        //   path: 'games/cockroachracers',
+        //   name: 'Cockroachracers',
+        //   component: () => import('./views/games/Cockroachracers.vue')
+        // },
+        // {
+        //   path: 'games/robodog',
+        //   name: 'Robodog',
+        //   component: () => import('./views/games/Robodog.vue')
+        // },
+        // {
+        //   path: 'games/cyberrace',
+        //   name: 'Cyberrace',
+        //   component: () => import('./views/games/Cyberrace.vue')
+        // },
+        // {
+        //   path: 'games/tronbikers',
+        //   name: 'Tronbikers',
+        //   component: () => import('./views/games/Tronbikers.vue')
+        // },
+        // {
+        //   path: 'games/catchacrab',
+        //   name: 'Catchacrab',
+        //   component: () => import('./views/games/Catchacrab.vue')
+        // },
         {
           path: 'partners',
           name: 'Partners',
@@ -70,6 +76,11 @@ export default new Router({
           path: 'contact',
           name: 'Contact',
           component: () => import('./views/Contact.vue')
+        },
+        {
+          path: '/:catchAll(.*)',
+          name: 'FourOFour',
+          component: () => import('./views/FourOFour.vue')
         }
       ]
     }
