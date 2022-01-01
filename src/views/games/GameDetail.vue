@@ -59,7 +59,7 @@
   import json from '../../assets/data/games.json'
   import { Carousel, Slide } from 'vue-carousel';
   export default {
-    props: ['slug' ],
+    props: ['slug','metatitle' ],
     components: {
       Carousel,
       Slide
@@ -74,12 +74,19 @@
     },
     methods: {
       filteredGame(slug) {
-        return this.games.filter(game => game.slug === slug)
-      }
+        return this.games.filter(game => game.slug === slug) 
+      },
     },
     mounted() {
       window.scrollTo(0, 0)
       this.$nextTick().then(() => document.body.classList.add('gamepage'))
+      
+      // let arr = []
+      // this.games.forEach((value) => {
+      //     arr.push(value)
+      //     console.log(value.metatitle)
+      // })
+      // console.log('!! This is: ' + this.$route.params.slug)
     },
     metaInfo: {
       title: `Game Detail`,
@@ -87,6 +94,7 @@
     }
   }
 </script>
+
 <style lang="scss">
   @import url('../../../node_modules/vue-plyr/dist/vue-plyr.css');
   .about p {
@@ -100,10 +108,5 @@
     height: 5px !important;
     border-radius: 0 !important;
   }
-  #color1 {
-  stop-color: red
-}
-#color2 {
-  stop-color: blue
-}
+
 </style>
