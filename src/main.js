@@ -6,11 +6,13 @@ import '@/assets/css/tailwind.css'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
+import VueMeta from 'vue-meta'
 import VuePlyr from 'vue-plyr'
 
 Vue.use(ToggleButton)
 Vue.use(VueFuse)
 Vue.use(VModal)
+Vue.use(VueMeta)
 Vue.use(VuePlyr)
 Vue.config.productionTip = false
 

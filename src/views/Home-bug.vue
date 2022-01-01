@@ -411,6 +411,10 @@
           visibleY: true
         }
       });
+    },
+    metaInfo: {
+      title: `Home`,
+      titleTemplate: 'Curious Games - %s',
     }
   };
 </script>
