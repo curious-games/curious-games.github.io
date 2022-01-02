@@ -23,12 +23,8 @@
       window.scrollTo(0, 0)
     },
     metaInfo: {
-    title: `Games`,
-    titleTemplate: 'Curious Games - %s',
-  }
+      title: `Games`,
+      titleTemplate: 'Curious Games - %s',
+    }
   }
 </script>
-
-<style scoped>
-  
-</style>

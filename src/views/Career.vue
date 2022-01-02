@@ -2,7 +2,6 @@
   <div>
     <div class="container px-8 pt-40 mx-auto text-black lg:px-60">
       <h2 class="inline-block text-6xl">Curious about<br><span class="border-b-8 border-gradient-r-curious">our team</span></h2>
-      
       <div class="grid grid-cols-3 gap-12 my-10">
         <div class="col-span-3 md:col-span-2">
           <p class="mt-5 text-lg md:font-thin">We are hiring and on the lookout for curious minds to join our team.</p>
