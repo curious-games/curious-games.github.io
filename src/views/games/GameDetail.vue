@@ -72,7 +72,7 @@
     methods: {
       filteredGame(slug) {
         return this.games.filter(game => game.slug === slug) 
-      }
+      },
     },
     mounted() {
       window.scrollTo(0, 0)
