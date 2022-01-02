@@ -35,7 +35,14 @@ export default new Router({
           path: 'games/:slug',
           name: 'GameDetail',
           component: () => import('./views/games/GameDetail.vue'),
-          props: true
+          props: true,
+          // beforeEnter: (toRoute,next) => {
+          //   window.document.title = toRoute.meta.metatitle;
+          //   next();
+          // },
+          // meta: {
+          //   title : localStorage.getItem("metatitle"),
+          // },
         },
         {
           path: 'partners',
