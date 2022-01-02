@@ -73,7 +73,7 @@
       filteredGame(slug) {
         return this.games.filter(game => game.slug === slug) 
       },
-    },
+    },  
     mounted() {
       window.scrollTo(0, 0)
       this.$nextTick().then(() => document.body.classList.add('gamepage'))
