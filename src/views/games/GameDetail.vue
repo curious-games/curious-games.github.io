@@ -71,7 +71,7 @@
     },
     methods: {
       filteredGame(slug) {
-        return this.games.filter(game => game.slug === slug) 
+        return this.games.filter(game => game.slug === slug)
       },
     },
     mounted() {
