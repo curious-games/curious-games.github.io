@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'jit',
+  // mode: 'jit',
   purge: [
     './public/index.html',
     './src/**/*.html',
@@ -40,10 +40,21 @@ module.exports = {
         '11': '11px',
         '12': '12px',
       },
-      fill: theme => ({
-        'cur-pink': '#FF0099',
-        'cur-blue': '#4CB7EB',
-      })
+      fill: {
+        none: 'none',
+      },
+      strokeWidth: {
+        '15': '15',
+      },
+      animation: {
+        scroll: "scroll ease 2s infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateY(0)" },
+          "30%": { transform: "translateY(60px)" }
+        }
+      }
     },
     linearBorderGradients: {
       directions: { // defaults to these values
@@ -76,6 +87,9 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus', 'even', 'odd'],
     linearBorderGradients: ['responsive'], // defaults to ['responsive']
     repeatingLinearBorderGradients: ['responsive'], // defaults to ['responsive']
+    extend: {
+      transitionTimingFunction: ['hover', 'focus'],
+    },
   },
   plugins: [
     require('tailwindcss-border-gradients')(),
