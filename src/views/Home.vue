@@ -1,8 +1,9 @@
 <template>
+<div>
   <section class="h-screen bg-black">
-    <div class="relative w-full h-screen">
+    <div class="relative w-full h-screen mt-4">
       <video autoplay muted loop class="absolute z-0 object-cover w-full h-full">
-          <source src="/mov/CockroachRacers.mp4" type="video/mp4" />
+        <source src="/mov/CockroachRacers.mp4" type="video/mp4" />
       </video>
       <div class="relative z-10 w-screen">
         <div class="flex items-center justify-center h-screen">
@@ -14,6 +15,13 @@
       </div>
     </div>
   </section>
+  <section class="min-h-screen bg-red-500">
+    
+  </section>
+  <section class="min-h-screen bg-blue-500">
+    
+  </section>
+</div>
 </template>
 
 <script>
