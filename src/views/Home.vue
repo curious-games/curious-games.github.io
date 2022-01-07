@@ -25,12 +25,13 @@
             :class="[ 'md:' + section.ver ,'md:' + section.hor , section.padding ]">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black bg-opacity-50 rounded-md">{{section.text}}</p>
+            <div class="md:items-start md:items-center md:items-end md:justify-start md:justify-center md:justify-end"></div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
 </div>
 </template>
 
