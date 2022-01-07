@@ -3,31 +3,31 @@
     {
       "id" : 1,
       "img": "/img/home/Cars.jpg",
-      "text" : "Curious Games is the world’s first virtual sports publisher dedicated to alternative virtual contests.",
+      "text" : "The world’s first virtual sports publisher dedicated to alternative virtual contests.",
       "ver" : "items-end",
       "hor" : "justify-start",
-      "padding": ""
+      "padding": "pb-20"
     },
     {
       "id" : 2,
       "img": "/img/home/Cockroach.jpg",
-      "text" : "Delivering the highest quality content with real time data driven AI markets for the most intuitive of gaming experiences.",
+      "text" : "Streamed seamlessly via mobile or locally rendered to the venue of your choice.",
       "ver" : "items-end",
       "hor" : "justify-end",
-      "padding": "pb-10"
+      "padding": "pb-32"
     },
     {
       "id" : 3,
       "img": "/img/home/Dune.jpg",
-      "text" : "Dynamic in game assets produced by Oscar and Bafta award winning VFX artists and interactive entertainment industry veterans.",
-      "ver" : "items-start",
+      "text" : "Available through one single API with no additional integration. High quality content with real time data driven AI markets.",
+      "ver" : "items-center",
       "hor" : "justify-center",
       "padding": "pt-20"
     },
     {
       "id" : 4,
       "img": "/img/home/RobotDog.jpg",
-      "text" : "Our virtual contests can be streamed seamlessly with mobile optimisation or locally rendered to the venue of your choice. Available through one single API with no additional integration.",
+      "text" : "Dynamic in game assets produced by Oscar and Bafta award winning VFX artists.",
       "ver" : "items-center",
       "hor" : "justify-start",
       "padding": ""
@@ -35,7 +35,7 @@
     {
       "id" : 5,
       "img": "/img/home/Bikers.jpg",
-      "text" : "The game logic behind each of our virtual contests are fully customisable to meet specific content or regulatory requirements including market localisation and branded or sponsored content.",
+      "text" : "Fully customisable to meet your specific content or regulatory requirements.",
       "ver" : "items-center",
       "hor" : "justify-end",
       "padding": ""

@@ -9,7 +9,7 @@
       <div class="relative z-10 w-screen">
         <div class="flex items-center justify-center h-screen">
           <p class="p-2 font-thin text-8xl md:text-9xl">
-            <span class="block md:mr-20">curious</span> <span class="block ml-0 md:ml-20">games</span>
+            <span class="block md:mr-20">&nbsp;</span> <span class="block ml-0 md:ml-20">&nbsp;</span>
             <ScrollDownIcon />
           </p>
         </div>
@@ -19,12 +19,12 @@
 
   <section class="bg-black h-half md:h-screen" v-for="section in sections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
-      <img class="absolute z-0 object-cover w-full h-full" :src="section.img" alt="">
+      <img class="absolute z-0 object-cover w-full h-full opacity-40" :src="section.img" alt="">
       <div class="relative z-10 w-screen p-10 md:p-0">
         <div class="container flex items-center justify-center mx-auto lg:px-40 h-half md:h-screen" 
             :class="[ 'md:' + section.ver ,'md:' + section.hor , section.padding ]">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="p-2 text-xl bg-black bg-opacity-50 rounded-md">{{section.text}}</p>
+            <p class="p-2 text-xl bg-black bg-opacity-50 rounded-md md:text-3xl">{{section.text}}</p>
             <div class="md:items-start md:items-center md:items-end md:justify-start md:justify-center md:justify-end"></div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex flex-col min-h-screen font-sans text-white">
     <div class="fixed z-30 h-29">
-      <div class="fixed z-40 w-screen bg-black border-b border-gray-600 h-29"></div>
+      <div class="fixed z-40 w-screen h-20 bg-black border-b border-gray-600 md:h-29"></div>
       <header class="fixed z-50 w-full">
         <nav class="container relative px-8 pt-8 pb-5 mx-auto lg:flex lg:items-center lg:justify-between md:flex-wrap">
           <div class="flex items-center justify-between lg:flex-none">
@@ -32,7 +32,7 @@
               </button>
             </div>
           </div>
-          <div class="z-40 text-center bg-black lg:border-b lg:-mt-3 lg:border-gradient-r-curious rounded-b-xl">
+          <div class="z-40 -mt-6 text-center bg-black lg:border-b lg:-mt-3 lg:border-gradient-r-curious rounded-b-xl">
             <ul class="flex-grow block w-full p-4 font-bold tracking-wide uppercase lg:p-0.5 lg:px-2 lg:pb-1 gap-x-8 lg:flex lg:flex-initial lg:w-auto lg:mt-0" :class="menuOpen ? 'block' : 'hidden'">
               <li class="mb-6 lg:mb-0">
                 <router-link
