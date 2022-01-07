@@ -21,8 +21,8 @@
     <div class="relative w-full h-half md:h-screen">
       <img class="absolute z-0 object-cover w-full h-full" :src="section.img" alt="">
       <div class="relative z-10 w-screen p-10 md:p-0">
-        <div class="container flex mx-auto sm:items-center sm:justify-center h-half md:h-screen md:px-40" 
-            :class="[`md:` + section.ver , `md:` + section.hor ,  section.padding]">
+        <div class="container flex mx-auto h-half md:h-screen md:px-40" 
+            :class="[ section.ver , section.hor , section.padding]">
           <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
             <p class="p-2 text-xl bg-black bg-opacity-50 rounded-md">{{section.text}}</p>
           </div>
