@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex flex-col min-h-screen font-sans text-white">
+  <div class="flex flex-col min-h-screen font-sans text-white">
     <div class="fixed z-30 h-29">
       <div class="fixed z-40 w-screen h-20 bg-black border-b border-gray-600 md:h-29"></div>
       <header class="fixed z-50 w-full">
@@ -83,7 +83,7 @@
     <div class="flex-grow text-lg">
       <router-view />
     </div>
-    <div class="grid grid-cols-3 mb-48 text-white bg-black md:mb-0 md:h-36">
+    <div class="grid clear-both grid-cols-3 text-white bg-black md:mb-0 md:h-36">
       <div class="grid col-span-3 md:col-span-1">
           <p class="self-end p-4 text-xxs">Curious Games is the owner of all software and all other material on this website. All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games. Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
       </div>
@@ -94,30 +94,32 @@
   </div>
 </template>
 
-
 <script>
-export default {
-  name: "app",
-  data() {
-    return {
-      menuOpen: false,
-    };
-  },
-  methods: {
-    toggleMenu() {
-      this.menuOpen = !this.menuOpen;
+  export default {
+    name: "app",
+    data() {
+      return {
+        menuOpen: false,
+      };
     },
-    away() {
-       this.menuOpen = false;
-    }
-  },
-};
+    methods: {
+      toggleMenu() {
+        this.menuOpen = !this.menuOpen;
+      },
+      away() {
+        this.menuOpen = false;
+      }
+    },
+  };
 </script>
 
-<style scoped>
-.router-link-exact-active,
-.gamepage .game
-{
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
-}
+<style>
+  body {
+    
+  }
+  .router-link-exact-active,
+  .gamepage .game
+  {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue;
+  }
 </style>
