@@ -39,7 +39,7 @@
               </span>
               </p>
             </div>
-            
+            <div class="md:items-start md:items-center md:items-end md:justify-start md:justify-center md:justify-end"></div>
           </div>
         </div>
       </div>
