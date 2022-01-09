@@ -36,7 +36,7 @@
             <ul class="flex-grow block w-full p-4 font-bold tracking-wide uppercase lg:p-0.5 lg:px-2 lg:pb-1 gap-x-8 lg:flex lg:flex-initial lg:w-auto lg:mt-0" :class="menuOpen ? 'block' : 'hidden'">
               <li class="mb-6 lg:mb-0">
                 <router-link
-                  @click="menuOpen = !menuOpen"
+                  @click.native="menuOpen = !menuOpen"
                   :to="`/en/`"
                   class="text-copy-primary hover:text-gray-400"
                   >Home</router-link
@@ -44,7 +44,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
-                  @click="menuOpen = !menuOpen"
+                  @click.native="menuOpen = !menuOpen"
                   :to="`/en/games`"
                   class="text-copy-primary hover:text-gray-400 game"
                   >Games</router-link
@@ -52,7 +52,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
-                  @click="menuOpen = !menuOpen"
+                  @click.native="menuOpen = !menuOpen"
                   :to="`/en/partners`"
                   class="text-copy-primary hover:text-gray-400"
                   >Partners</router-link
@@ -60,7 +60,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
-                  @click="menuOpen = !menuOpen"
+                  @click.native="menuOpen = !menuOpen"
                   :to="`/en/career`"
                   class="text-copy-primary hover:text-gray-400"
                   >Career</router-link
@@ -68,7 +68,7 @@
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
-                  @click="menuOpen = !menuOpen"
+                  @click.native="menuOpen = !menuOpen"
                   :to="`/en/contact`"
                   class="text-copy-primary hover:text-gray-400"
                   >Contact</router-link
