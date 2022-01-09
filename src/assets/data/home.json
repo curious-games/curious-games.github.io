@@ -3,10 +3,10 @@
     {
       "id" : 1,
       "img": "/img/home/Cars.jpg",
-      "header": "",
+      "header": "World’s First!",
       "text" : "The world’s first virtual sports publisher dedicated to alternative virtual contests.",
-      "buttontext": "",
-      "buttonlink": "",
+      "buttontext": "Try Now",
+      "buttonlink": "/en/games/",
       "ver" : "items-end",
       "hor" : "justify-start",
       "padding": "pb-20"
@@ -27,7 +27,7 @@
       "img": "/img/home/Dune.jpg",
       "header": "One single API",
       "text" : "Available through one single API with no additional integration. High quality content with real time data driven AI markets.",
-      "buttontext": "Check out",
+      "buttontext": "More Info",
       "buttonlink": "/en/games/",
       "ver" : "items-center",
       "hor" : "justify-center",
@@ -36,10 +36,10 @@
     {
       "id" : 4,
       "img": "/img/home/RobotDog.jpg",
-      "header": "",
+      "header": "By award winning VFX artists",
       "text" : "Dynamic in game assets produced by Oscar and Bafta award winning VFX artists.",
-      "buttontext": "",
-      "buttonlink": "",
+      "buttontext": "Discover",
+      "buttonlink": "/en/games/",
       "ver" : "items-center",
       "hor" : "justify-start",
       "padding": ""
@@ -47,10 +47,10 @@
     {
       "id" : 5,
       "img": "/img/home/Bikers.jpg",
-      "header": "",
+      "header": "Fully customisable",
       "text" : "Fully customisable to meet your specific content or regulatory requirements.",
-      "buttontext": "",
-      "buttonlink": "",
+      "buttontext": "Explore",
+      "buttonlink": "/en/games/",
       "ver" : "items-center",
       "hor" : "justify-end",
       "padding": ""
