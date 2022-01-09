@@ -20,12 +20,26 @@
   <section class="bg-black h-half md:h-screen" v-for="section in sections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <img class="absolute z-0 object-cover w-full h-full opacity-40" :src="section.img" alt="">
-      <div class="relative z-10 w-screen p-10 md:p-0">
-        <div class="container flex items-center justify-center mx-auto lg:px-40 h-half md:h-screen" 
-            :class="[ 'md:' + section.ver ,'md:' + section.hor , section.padding ]">
-          <div class="max-w-md pt-4 border-t-2 border-gradient-r-curious">
-            <p class="p-2 text-xl bg-black bg-opacity-50 rounded-md md:text-3xl">{{section.text}}</p>
-            <div class="md:items-start md:items-center md:items-end md:justify-start md:justify-center md:justify-end"></div>
+      <div class="relative z-10 w-screen p-10 md:p-0 ">
+        <div 
+          class="container flex items-center justify-center mx-auto lg:px-40 h-half md:h-screen" 
+          :class="[ 'md:' + section.ver ,'md:' + section.hor , section.padding ]"
+          >
+          <div class="max-w-md bg-black rounded-md bg-opacity-30">
+            <h2 v-if="section.header" 
+            class="p-2 text-2xl text-transparent md:text-4xl bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue">
+            {{section.header}}
+            </h2>
+            <div class="pt-4 border-t-2 border-gradient-r-curious">
+              <p class="p-2 text-xl md:text-3xl">{{section.text}}
+              <span v-if="section.buttontext" class="block mt-3">
+                <router-link class="inline-block px-4 py-2 mt-2 text-lg text-black rounded-lg bg-cur-blue hover:bg-cur-pink hover:text-white" :to="section.buttonlink">
+                  {{section.buttontext}}
+                </router-link>
+              </span>
+              </p>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -49,10 +63,6 @@
     },
     mounted() {
       this.$nextTick().then(() => document.body.classList.remove('gamepage'))
-    },
-    metaInfo: {
-      title: `Home`,
-      titleTemplate: 'Curious Games - %s',
     }
   };
 </script>

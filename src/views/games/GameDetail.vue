@@ -1,15 +1,21 @@
 <template>
 <div class="pt-28">
   <div v-for="game in filteredGame(slug)" :key="game.id">
-    <carousel :paginationPosition="'bottom-overlay'" :paginationActiveColor="'#FF0099'" :paginationColor="'#4CB7EB'" :per-page="1" :autoplay="true" :autoplayTimeout="4000" :loop="true" :mouse-drag="false">
-      <slide v-for="slide in game.sliders" :key="slide.id">
-        <div class="bg-center bg-cover h-80 md:h-108" :style="{ backgroundImage: 'url(' + slide.slide + ')' }"></div>
+    <carousel :autoplay="3000">
+      <slide v-for="slide in game.sliders" :key="slide.id" 
+      class="bg-center bg-cover h-80 md:h-108" 
+      :style="{ backgroundImage: 'url(' + slide.slide + ')' }"
+      :settings="slidersettings"
+      >
       </slide>
+      <template #addons="{ slidesCount }">
+        <Pagination v-if="slidesCount > 1" />
+      </template>
     </carousel>
     <div class="container relative px-4 py-10 mx-auto text-black md:px-0">
       <div class="grid grid-cols-6 gap-4 auto-cols-max">
         <div class="relative">
-          <router-link :to="`/${$i18n.locale}/games/`" class="absolute top-0 right-0 w-16 mb-8 md:mr-6">
+          <router-link :to="`/en/games/`" class="absolute top-0 right-0 w-16 mb-8 md:mr-6">
             <svg class="w-10 h-10 ml-4 md:w-16 md:h-16 md:ml-0 fill-cur-blue" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
               <path d="M100 15a85 85 0 1 0 85 85 84.93 84.93 0 0 0-85-85Zm0 150a65 65 0 1 1 65-65 64.87 64.87 0 0 1-65 65Zm16.5-107.5a9.67 9.67 0 0 0-14 0L74 86a19.92 19.92 0 0 0 0 28.5l28.5 28.5a9.9 9.9 0 0 0 14-14l-28-29L117 71.5c3.5-3.5 3.5-10-.5-14Z"/>
             </svg>
@@ -54,12 +60,14 @@
 
 <script>
   import json from '../../assets/data/games.json'
-  import { Carousel, Slide } from 'vue-carousel';
+  import 'vue3-carousel/dist/carousel.css';
+  import { Carousel, Slide, Pagination } from 'vue3-carousel';
   export default {
     props: ['slug'],
     components: {
       Carousel,
-      Slide
+      Slide,
+      Pagination
     },
     data() {
       return {
@@ -67,6 +75,9 @@
         plyroptions: {
           controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
         },
+        slidersettings: {
+          pauseAutoplayOnHover: false
+        }
       }
     },
     methods: {
@@ -77,10 +88,6 @@
     mounted() {
       window.scrollTo(0, 0)
       this.$nextTick().then(() => document.body.classList.add('gamepage'))
-    },
-    metaInfo: {
-      title: `Game Detail`,
-      titleTemplate: 'Curious Games - %s',
     }
   }
 </script>
@@ -90,12 +97,21 @@
   .about p {
     @apply mb-4;
   }
-  .VueCarousel-pagination--bottom-overlay{
-    bottom: 1rem !important;
+  .carousel {
+    position: relative
   }
-  .VueCarousel-dot {
+  .carousel__pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 1.5rem;
+  }
+  .carousel__pagination-button {
+    @apply bg-cur-blue;
     width: 30px !important;
     height: 5px !important;
     border-radius: 0 !important;
+  }
+  .carousel__pagination-button--active {
+    @apply bg-cur-pink;
   }
 </style>

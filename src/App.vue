@@ -6,7 +6,7 @@
         <nav class="container relative px-8 pt-8 pb-5 mx-auto lg:flex lg:items-center lg:justify-between md:flex-wrap">
           <div class="flex items-center justify-between lg:flex-none">
             <div class="h-20 -mt-2 lg:mt-3 lg:h-32">
-              <router-link :to="`/${$i18n.locale}/`">
+              <router-link :to="`/en/`">
                 <img
                   src="/gfx/CG_Logo_Black.png"
                   alt="logo"
@@ -37,41 +37,41 @@
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
-                  :to="`/${$i18n.locale}/`"
+                  :to="`/en/`"
                   class="text-copy-primary hover:text-gray-400"
-                  >{{ $t('nav.home') }}</router-link
+                  >Home</router-link
                 >
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
-                  :to="`/${$i18n.locale}/games`"
+                  :to="`/en/games`"
                   class="text-copy-primary hover:text-gray-400 game"
-                  >{{ $t('nav.games') }}</router-link
+                  >Games</router-link
                 >
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
-                  :to="`/${$i18n.locale}/partners`"
+                  :to="`/en/partners`"
                   class="text-copy-primary hover:text-gray-400"
-                  >{{ $t('nav.partners') }}</router-link
+                  >Partners</router-link
                 >
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
-                  :to="`/${$i18n.locale}/career`"
+                  :to="`/en/career`"
                   class="text-copy-primary hover:text-gray-400"
-                  >{{ $t('nav.career') }}</router-link
+                  >Career</router-link
                 >
               </li>
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
-                  :to="`/${$i18n.locale}/contact`"
+                  :to="`/en/contact`"
                   class="text-copy-primary hover:text-gray-400"
-                  >{{ $t('nav.contact') }}</router-link
+                  >Contact</router-link
                 >
               </li>
             </ul>

@@ -1,12 +1,7 @@
+// tailwind.config.js
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './public/index.html',
-    './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.json',
-    './src/**/*.jsx',
-  ],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       spacing: {

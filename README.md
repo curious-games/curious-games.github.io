@@ -1,26 +1,42 @@
-# Curious Games Homepage 
+# Curious Games Website
 
-## Project setup
+## Dependecies
+
+- [Node.js](https://nodejs.org/en/)
+
+
+## Install
+
 ```
+git clone https://github.com/curious-games/curious-games.github.io.git
+cd curious-games.github.io
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run / Develop
+
 ```
-npm run serve
+npm run dev
+
 ```
 
-### Compiles and minifies for production
+## Build
+
 ```
 npm run build
+
+```
+## Deploy 
+
+```
+npm run build
+git add .
+git ci -m "YOUR COMMIT MESSAFE"
+git push
+. deploy.sh
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Recommended IDE Setup
 
-### Deploy
-```
-npm run deploy
-```
+-   [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
