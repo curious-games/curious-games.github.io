@@ -1,5 +1,5 @@
 <template>
-<div class="pt-28">
+<div class="pt-20 md:pt-24">
   <div v-for="game in filteredGame(slug)" :key="game.id">
     <carousel :autoplay="3000">
       <slide v-for="slide in game.sliders" :key="slide.id" 
