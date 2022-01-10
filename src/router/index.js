@@ -54,6 +54,20 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title ? to.meta.title : "Curious Games"
   next()
+
+  // const paramsLocale = to.params.locale
+
+  // if (!SUPPORT_LOCALES.includes(paramsLocale)) {
+  //   return next(`/${locale}`)
+  // }
+
+  // if (!i18n.global.availableLocales.includes(paramsLocale)) {
+  //   await loadLocaleMessages(i18n, paramsLocale)
+  // }
+
+  // setI18nLanguage(i18n, paramsLocale)
+
+  // return next()
  })
 
  export default router
