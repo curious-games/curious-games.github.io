@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-8 pt-40 mx-auto text-black lg:px-60">
+  <div class="container px-8 pt-40 pb-12 mx-auto text-black lg:px-60 mb:pb-0">
     <h2 class="inline-block text-6xl">Curious about<br><span class="border-b-8 border-gradient-r-curious">our team</span></h2>
     <div class="grid grid-cols-3 gap-12 my-10">
       <div class="col-span-3 md:col-span-2">

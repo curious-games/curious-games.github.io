@@ -15,9 +15,9 @@ Game Detail
 
 Partners
 
-- [ ] Desktop: İkonlar arası padding
-- [ ] Mobile: Content altına margin
+- [x] Desktop: İkonlar arası padding
+- [x] Mobile: Content altına margin
 
 Career
 
-- [ ] Mobile: Content altına margin
+- [x] Mobile: Content altına margin
