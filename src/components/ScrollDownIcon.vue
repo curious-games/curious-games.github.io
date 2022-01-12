@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="z-50 flex items-center justify-center pt-32 h-11">
+    <div class="z-50 flex items-center justify-center pt-32 md:pt-96 h-11">
       <svg
         viewBox="0 0 247 390"
         version="1.1"
