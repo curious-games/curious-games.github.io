@@ -25,7 +25,7 @@
           <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl">
             <p v-html="game.title"></p>
           </div>
-          <div class="col-span-6 px-4 md:col-span-3 md:col-start-2 md:font-thin md:pl-0 md:pr-4 ">
+          <div class="col-span-5 col-start-1 px-4 md:col-span-3 md:font-thin md:pl-0 md:pr-4 ">
             <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
             <div class="text-black about" v-html="game.about"></div>
           </div>
@@ -40,7 +40,7 @@
               <div v-if="game.duration" class="text-gray-800">Race Duration</div><div class="text-gray-500">{{game.duration}}</div>
             </div>
           </div>
-          <div class="col-span-6 px-4 mt-6 md:px-0 md:mt-24 md:col-start-2" v-if="game.video">
+          <div class="col-span-6 px-4 mt-6 md:px-0 md:mt-24 md:col-start-1" v-if="game.video">
             <vue-plyr :options="plyroptions">
               <video
                 playsinline
