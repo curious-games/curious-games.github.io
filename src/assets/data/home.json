@@ -3,8 +3,8 @@
     {
       "id" : 1,
       "img": "/img/home/RobotDog.jpg",
-      "header": "World’s First!",
-      "text" : "The world’s first virtual sports publisher dedicated to alternative virtual contests.",
+      "header": "READY<br>STEADY<br>GOCURIOUS",
+      "text" : "Curious Games is the world’s first virtual sports publisher dedicated to alternative virtual contests.",
       "buttontext": "Try Now",
       "buttonlink": "/en/games/",
       "ver" : "items-end",
@@ -25,7 +25,7 @@
     {
       "id" : 3,
       "img": "/img/home/Dune.jpg",
-      "header": "One single API",
+      "header": "Easy Integration",
       "text" : "Available through one single API with no additional integration. High quality content with real time data driven AI markets.",
       "buttontext": "More Info",
       "buttonlink": "/en/games/",
@@ -36,8 +36,8 @@
     {
       "id" : 4,
       "img": "/img/home/Cars.jpg",
-      "header": "By award winning VFX artists",
-      "text" : "Dynamic in game assets produced by Oscar and Bafta award winning VFX artists.",
+      "header": "Award winning team",
+      "text" : "Dynamic in-game assets produced by Oscar and Bafta award winning VFX artists.",
       "buttontext": "Discover",
       "buttonlink": "/en/games/",
       "ver" : "items-center",

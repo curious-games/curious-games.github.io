@@ -27,8 +27,9 @@
           >
           <div class="max-w-md bg-black rounded-md bg-opacity-30">
             <h2 v-if="section.header" 
-            class="p-2 text-2xl text-transparent md:px-6 md:py-4 md:text-4xl bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue">
-            {{section.header}}
+            class="p-2 text-2xl text-transparent md:px-6 md:py-4 md:text-4xl bg-clip-text bg-gradient-to-r from-cur-pink to-cur-blue"
+            v-html="section.header"
+            >
             </h2>
             <div class="pt-4 border-t-2 border-gradient-r-curious">
               <p class="p-2 text-xl md:px-6 md:py-4 md:text-3xl">{{section.text}}
