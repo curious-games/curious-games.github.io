@@ -2,7 +2,7 @@
   "sections": [
     {
       "id" : 1,
-      "img": "/img/home/Cars.jpg",
+      "img": "/img/home/RobotDog.jpg",
       "header": "World’s First!",
       "text" : "The world’s first virtual sports publisher dedicated to alternative virtual contests.",
       "buttontext": "Try Now",
@@ -35,7 +35,7 @@
     },
     {
       "id" : 4,
-      "img": "/img/home/RobotDog.jpg",
+      "img": "/img/home/Cars.jpg",
       "header": "By award winning VFX artists",
       "text" : "Dynamic in game assets produced by Oscar and Bafta award winning VFX artists.",
       "buttontext": "Discover",

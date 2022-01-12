@@ -3,15 +3,15 @@ Todo
 Homepage
 
 - [x] Scrolld Down aşağı inecek
-- [ ] Robodog ile Cars yer değiştirecek
-- [ ] Opacity düşürelecek
-- [ ] Desktop: infolar padding eklenecek 
+- [x] Robodog ile Cars yer değiştirecek
+- [x] Opacity düşürelecek
+- [x] Desktop: infolar padding eklenecek 
 - [ ] Robodog slider olarak eklenecek 
 
 Game Detail
 
-- [ ] Desktop: Görsel padding top?
-- [ ] Desktop: Sağa sol padding statik sayfalar gibi olsun
+- [x] Desktop: Görsel padding top?
+- [x] Desktop: Sağa sol padding statik sayfalar gibi olsun
 
 Partners
 

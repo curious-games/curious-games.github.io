@@ -1,5 +1,5 @@
 <template>
-<div class="pt-20 md:pt-24">
+<div class="pt-20 md:pt-26">
   <div v-for="game in filteredGame(slug)" :key="game.id">
     <carousel :autoplay="3000">
       <slide v-for="slide in game.sliders" :key="slide.id" 
@@ -21,36 +21,38 @@
             </svg>
           </router-link>
         </div>
-        <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl">
-          <p v-html="game.title"></p>
-        </div>
-        <div class="col-span-6 px-4 md:col-span-3 md:col-start-2 md:font-thin md:px-0">
-          <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
-          <div class="text-black about" v-html="game.about"></div>
-        </div>
-        <div class="col-span-6 md:col-span-2 md:text-right">
-          <h2 class="px-4 mb-8 text-xl font-semibold md:text-3xl md:px-0">Specifications</h2>
-          <div class="grid grid-cols-2 gap-4 p-6 bg-gray-100 rounded-lg bg-opacity-70 md:font-thin">
-            <div v-if="game.date" class="text-gray-800">Release Date</div><div class="text-gray-500">{{game.date}}</div>
-            <div v-if="game.type" class="text-gray-800">Game type</div><div class="text-gray-500">{{game.type}}</div>
-            <div v-if="game.mobile" class="text-gray-800">Mobile</div><div class="text-gray-500">{{game.mobile}}</div>
-            <div v-if="game.rng" class="text-gray-800">RNG Certified</div><div class="text-gray-500">{{game.rng}}</div>
-            <div v-if="game.resolution" class="text-gray-800">Game resolution</div><div class="text-gray-500">{{game.resolution}}</div>
-            <div v-if="game.duration" class="text-gray-800">Race Duration</div><div class="text-gray-500">{{game.duration}}</div>
+        <div class="grid col-span-5 md:pl-6">
+          <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl">
+            <p v-html="game.title"></p>
           </div>
-        </div>
-        <div class="col-span-6 px-4 mt-6 md:pl-0 md:pr-4 md:mt-24 md:col-start-2" v-if="game.video">
-          <vue-plyr :options="plyroptions">
-            <video
-              playsinline
-              :data-poster="game.poster"
-            >
-              <source
-                :src="game.video"
-                type="video/mp4"
-              />
-            </video>
-          </vue-plyr>
+          <div class="col-span-6 px-4 md:col-span-3 md:col-start-2 md:font-thin md:pl-0 md:pr-4 ">
+            <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
+            <div class="text-black about" v-html="game.about"></div>
+          </div>
+          <div class="col-span-6 md:col-span-2 md:text-right">
+            <h2 class="px-4 mb-8 text-xl font-semibold md:text-3xl md:px-0">Specifications</h2>
+            <div class="grid grid-cols-2 gap-4 p-6 bg-gray-100 rounded-lg bg-opacity-70 md:font-thin">
+              <div v-if="game.date" class="text-gray-800">Release Date</div><div class="text-gray-500">{{game.date}}</div>
+              <div v-if="game.type" class="text-gray-800">Game type</div><div class="text-gray-500">{{game.type}}</div>
+              <div v-if="game.mobile" class="text-gray-800">Mobile</div><div class="text-gray-500">{{game.mobile}}</div>
+              <div v-if="game.rng" class="text-gray-800">RNG Certified</div><div class="text-gray-500">{{game.rng}}</div>
+              <div v-if="game.resolution" class="text-gray-800">Game resolution</div><div class="text-gray-500">{{game.resolution}}</div>
+              <div v-if="game.duration" class="text-gray-800">Race Duration</div><div class="text-gray-500">{{game.duration}}</div>
+            </div>
+          </div>
+          <div class="col-span-6 px-4 mt-6 md:px-0 md:mt-24 md:col-start-2" v-if="game.video">
+            <vue-plyr :options="plyroptions">
+              <video
+                playsinline
+                :data-poster="game.poster"
+              >
+                <source
+                  :src="game.video"
+                  type="video/mp4"
+                />
+              </video>
+            </vue-plyr>
+          </div>
         </div>
       </div>
     </div>
