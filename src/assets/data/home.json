@@ -45,7 +45,7 @@
       "buttontext": "More Info",
       "buttonlink": "/en/games/",
       "ver" : "items-center",
-      "hor" : "justify-end",
+      "hor" : "justify-center",
       "padding": "pt-20 pb-30"
     },
     

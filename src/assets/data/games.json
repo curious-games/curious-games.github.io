@@ -132,7 +132,7 @@
     },
     {
       "id": 5,
-      "slug": "catchacrab",
+      "slug": "comingsoon",
       "image": "/img/games/GamePage_05_Coming_Soon.jpg",
       "sliders": [
         {
@@ -140,19 +140,19 @@
           "slide" : "/img/games/GamePage_05_Coming_Soon.jpg"
         }
       ],
-      "title": "<span class='border-b-8 border-gradient-r-curious'>Chase A Cr</span>ab",
-      "metatitle": "Chase A Crab",
-      "about": "<p>Wisk yourself away back to the summer beach paradise and watch your favourite hermit crab compete in the world’s first virtual crab race. <br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
-      "date": "TBC",
-      "type": "Virtual Race",
-      "mobile": "Fully Optimised",
-      "rtp": "96.20%",
-      "rng": "Yes",
-      "duration": "30sec",
-      "resolution": "16:9",
-      "paylines": "Fixed 20",
-      "volatility": "High",
-      "exposure": "666,600"
+      "title": "<span class='border-b-8 border-gradient-r-curious'>Comming So</span>on",
+      "metatitle": "Coming Soon",
+      "about": "",
+      "date": "",
+      "type": "",
+      "mobile": "",
+      "rtp": "",
+      "rng": "",
+      "duration": "",
+      "resolution": "",
+      "paylines": "",
+      "volatility": "",
+      "exposure": ""
     }
   ]
 }
