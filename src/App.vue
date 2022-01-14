@@ -118,7 +118,6 @@
       overflow-x: hidden;
       width: 100%;
   }
-
   body {
       overflow-x: hidden;
       width: 100%

@@ -25,11 +25,11 @@
           <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl">
             <p v-html="game.title"></p>
           </div>
-          <div class="col-span-5 col-start-1 pr-4 md:px-4 md:col-span-3 md:font-thin md:pl-0 ">
+          <div class="col-span-5 col-start-1 pr-4 md:px-4 md:col-span-3 md:font-thin md:pl-0" v-if="game.about">
             <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>
             <div class="text-black about" v-html="game.about"></div>
           </div>
-          <div class="col-span-6 md:col-span-2 md:text-right">
+          <div class="col-span-6 md:col-span-2 md:text-right" v-if="game.about">
             <h2 class="mb-8 text-xl font-semibold md:px-4 md:text-3xl md:px-0">Specifications</h2>
             <div class="grid grid-cols-2 gap-4 p-6 bg-gray-100 rounded-lg bg-opacity-70 md:font-thin">
               <div v-if="game.date" class="text-gray-800">Release Date</div><div class="text-gray-500">{{game.date}}</div>
