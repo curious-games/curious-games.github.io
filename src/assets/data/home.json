@@ -12,7 +12,7 @@
       "text" : "Curious Games is the world’s first virtual sports publisher dedicated to alternative virtual contests.",
       "buttontext": "Try Now",
       "buttonlink": "/en/games/",
-      "ver" : "items-end",
+      "ver" : "items-center",
       "hor" : "justify-start",
       "padding": "pb-32"
     },
@@ -28,7 +28,7 @@
       "text" : "Streamed seamlessly via mobile or locally rendered to the venue of your choice.",
       "buttontext": "Check out",
       "buttonlink": "/en/games/",
-      "ver" : "items-end",
+      "ver" : "items-center",
       "hor" : "justify-end",
       "padding": "pb-32"
     },
@@ -45,8 +45,8 @@
       "buttontext": "More Info",
       "buttonlink": "/en/games/",
       "ver" : "items-center",
-      "hor" : "justify-center",
-      "padding": "pt-20 pb-10"
+      "hor" : "justify-end",
+      "padding": "pt-20 pb-30"
     },
     
     {
@@ -90,7 +90,7 @@
       "buttontext": "Discover",
       "buttonlink": "/en/games/",
       "ver" : "items-center",
-      "hor" : "justify-start",
+      "hor" : "justify-center",
       "padding": ""
     }
   ]
