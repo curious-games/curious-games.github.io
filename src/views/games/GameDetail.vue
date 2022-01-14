@@ -3,7 +3,7 @@
   <div v-for="game in filteredGame(slug)" :key="game.id">
     <carousel :autoplay="3000">
       <slide v-for="slide in game.sliders" :key="slide.id" 
-      class="bg-center bg-cover h-80 md:h-108" 
+      class="bg-cover  h-80 md:h-108" 
       :style="{ backgroundImage: 'url(' + slide.slide + ')' }"
       :settings="slidersettings"
       >
