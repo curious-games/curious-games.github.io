@@ -89,7 +89,15 @@
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/GamePage_03_Machina_Races_-_CyberRaces-A.jpg"
+          "slide" : "/img/games/GamePage_03_Machina_Races_-_CyberRaces_A.jpg"
+        },
+        {
+          "id": 1,
+          "slide" : "/img/games/GamePage_03_Machina_Races_-_CyberRaces_B.jpg"
+        },
+        {
+          "id": 1,
+          "slide" : "/img/games/GamePage_03_Machina_Races_-_CyberRaces_C.jpg"
         }
       ],
       "title": "Machina Races<br><span class='border-b-8 border-gradient-r-curious'>CyberRaces</span>",
@@ -113,7 +121,7 @@
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/GamePage_04_Machina_Races_-_TronBikers-A.jpg"
+          "slide" : "/img/games/GamePage_04_Machina_Races_-_TronBikers_A.jpg"
         }
       ],
       "title": "Machina Races<br><span class='border-b-8 border-gradient-r-curious'>Tron Bikers</span>",
