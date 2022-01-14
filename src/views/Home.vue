@@ -1,6 +1,6 @@
 <template>
-<div class="snap-y snap-mandatory">
-  <section class="h-screen bg-black snap-start snap-always">
+<div class="relative">
+  <section class="h-screen bg-black">
     <div class="relative w-full h-screen mt-4">
       <video autoplay muted loop playsinline preload="auto" class="absolute z-0 object-cover w-full h-full overflow-x-hidden md:object-cover">
         <source src="/mov/CockroachRacers.mp4" type="video/mp4" />
@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="bg-black h-half md:h-screen snap-start snap-always" v-for="section in sections" :key="section.id">
+  <section class="bg-black h-half md:h-screen" v-for="section in sections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
