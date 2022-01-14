@@ -108,12 +108,12 @@
     bottom: 1.5rem;
   }
   .carousel__pagination-button {
-    @apply bg-cur-blue !important;
+    background-color: #4CB7EB !important;
     width: 30px !important;
     height: 5px !important;
     border-radius: 0 !important;
   }
   .carousel__pagination-button--active {
-    @apply bg-cur-pink !important;
+    background-color: #FF0099 !important;
   }
 </style>
