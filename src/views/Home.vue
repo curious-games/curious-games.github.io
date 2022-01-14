@@ -1,5 +1,5 @@
 <template>
-<div class="overflow-y-scroll snap-y snap-mandatory">
+<div class="snap-y snap-mandatory">
   <section class="h-screen bg-black snap-start snap-always">
     <div class="relative w-full h-screen mt-4">
       <video autoplay muted loop playsinline preload="auto" class="absolute z-0 object-cover w-full h-full overflow-x-hidden md:object-cover">
