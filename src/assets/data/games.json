@@ -3,11 +3,27 @@
     {
       "id": 1,
       "slug": "cockroachracers",
-      "image": "/img/games/CockroachRacers.png",
+      "image": "/img/games/GamePage_01_Virtual_Roach_Races.jpg",
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/CockroachRacers-01.jpg"
+          "slide" : "/img/games/GamePage_01_Virtual_Roach_Races_A.jpg"
+        },
+        {
+          "id": 2,
+          "slide" : "/img/games/GamePage_01_Virtual_Roach_Races_B.jpg"
+        },
+        {
+          "id": 3,
+          "slide" : "/img/games/GamePage_01_Virtual_Roach_Races_C.jpg"
+        },
+        {
+          "id": 4,
+          "slide" : "/img/games/GamePage_01_Virtual_Roach_Races_D.jpg"
+        },
+        {
+          "id": 5,
+          "slide" : "/img/games/GamePage_01_Virtual_Roach_Races_E.jpg"
         }
       ],
       "title": "<span class='border-b-8 border-gradient-r-curious'>Virtual Roa</span>ch Races",
@@ -29,27 +45,27 @@
     {
       "id": 2,
       "slug": "robodog",
-      "image": "/img/games/Robodog.png",
+      "image": "/img/games/GamePage_02_Machina_Races_-_K9_Edition.jpg",
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/Robodog-01.jpg"
+          "slide" : "/img/games/GamePage_02_Machina_Races_-_K9_Edition_A.jpg"
         },
         {
           "id": 2,
-          "slide" : "/img/games/Robodog-02.jpg"
+          "slide" : "/img/games/GamePage_02_Machina_Races_-_K9_Edition_B.jpg"
         },
         {
           "id": 3,
-          "slide" : "/img/games/Robodog-03.jpg"
+          "slide" : "/img/games/GamePage_02_Machina_Races_-_K9_Edition_C.jpg"
         },
         {
           "id": 4,
-          "slide" : "/img/games/Robodog-04.jpg"
+          "slide" : "/img/games/GamePage_02_Machina_Races_-_K9_Edition_D.jpg"
         },
         {
           "id": 5,
-          "slide" : "/img/games/Robodog-05.jpg"
+          "slide" : "/img/games/GamePage_02_Machina_Races_-_K9_Edition_E.jpg"
         }
       ],
       "title": "Machina Races<br><span class='border-b-8 border-gradient-r-curious'>K9 Edition&nbsp;&nbsp;</span>",
@@ -69,11 +85,11 @@
     {
       "id": 3,
       "slug": "cyberrace",
-      "image": "/img/games/CyberRace.png",
+      "image": "/img/games/GamePage_03_Machina_Races_-_CyberRaces.jpg",
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/CyberRace.png"
+          "slide" : "/img/games/GamePage_03_Machina_Races_-_CyberRaces-A.jpg"
         }
       ],
       "title": "Machina Races<br><span class='border-b-8 border-gradient-r-curious'>CyberRaces</span>",
@@ -93,11 +109,11 @@
     {
       "id": 4,
       "slug": "tronbikers",
-      "image": "/img/games/TronBikers.png",
+      "image": "/img/games/GamePage_04_Machina_Races_-_TronBikers.jpg",
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/TronBikers.png"
+          "slide" : "/img/games/GamePage_04_Machina_Races_-_TronBikers-A.jpg"
         }
       ],
       "title": "Machina Races<br><span class='border-b-8 border-gradient-r-curious'>Tron Bikers</span>",
@@ -117,11 +133,11 @@
     {
       "id": 5,
       "slug": "catchacrab",
-      "image": "/img/games/CatchACrab.png",
+      "image": "/img/games/GamePage_05_Coming_Soon.jpg",
       "sliders": [
         {
           "id": 1,
-          "slide" : "/img/games/CatchACrab.png"
+          "slide" : "/img/games/GamePage_05_Coming_Soon.jpg"
         }
       ],
       "title": "<span class='border-b-8 border-gradient-r-curious'>Chase A Cr</span>ab",
