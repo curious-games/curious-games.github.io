@@ -19,8 +19,17 @@
 
   <section class="bg-black h-half md:h-screen" v-for="section in sections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
-      <img class="absolute z-0 object-cover w-full h-full opacity-60" :src="section.img" alt="">
-      <div class="relative z-10 w-screen p-10 md:p-0 ">
+      <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
+        <slide v-for="img in section.images" :key="img.id" 
+        class="z-0 w-full h-full"
+        :settings="slidersettings">
+          <img class="object-cover w-full h-full opacity-60" :src="img.path" alt="">
+        </slide>
+        <template #addons="{ slidesCount }">
+          <Pagination v-if="slidesCount > 1" />
+        </template>
+      </carousel>
+      <div class="absolute inset-0 z-10 w-screen p-10 md:p-0 ">
         <div 
           class="container flex items-center justify-center mx-auto lg:px-40 h-half md:h-screen" 
           :class="[ 'md:' + section.ver ,'md:' + section.hor , section.padding ]"
@@ -52,13 +61,21 @@
 <script>
   import ScrollDownIcon from "../components/ScrollDownIcon.vue";
   import json from '../assets/data/home.json'
+  import 'vue3-carousel/dist/carousel.css';
+  import { Carousel, Slide, Pagination } from 'vue3-carousel';
   export default {
     components: {
-      ScrollDownIcon
+      ScrollDownIcon,
+      Carousel,
+      Slide,
+      Pagination
     },
     data() {
       return {
         sections: json.sections,
+        slidersettings: {
+          pauseAutoplayOnHover: false
+        }
       }
     },
     mounted() {
@@ -66,3 +83,23 @@
     }
   };
 </script>
+
+<style lang="scss">
+  .carousel {
+    position: relative
+  }
+  .carousel__pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 7.5rem;
+  }
+  .carousel__pagination-button {
+    @apply bg-cur-blue;
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 0 !important;
+  }
+  .carousel__pagination-button--active {
+    @apply bg-cur-pink;
+  }
+</style>
