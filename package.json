@@ -2,7 +2,7 @@
   "name": "curious-games-website",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview",
     "deploy": "ssh -i ~/.ssh/id_rsa -p 7000 -t deployer@134.209.183.10 'cd /var/www/curious-games.github.io/ && git pull && sudo nginx -s reload'"

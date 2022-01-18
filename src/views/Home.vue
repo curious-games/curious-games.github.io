@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="bg-black h-half md:h-screen" v-for="section in sections" :key="section.id">
+  <section class="overflow-hidden bg-black h-half md:min-h-screen" v-for="section in sections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
