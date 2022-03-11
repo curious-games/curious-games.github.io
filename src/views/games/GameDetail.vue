@@ -61,7 +61,8 @@
 </template>
 
 <script>
-  import json from '../../assets/data/games.json'
+  import { useMeta } from 'vue-meta'
+  import {mapState} from 'vuex'
   import 'vue3-carousel/dist/carousel.css';
   import { Carousel, Slide, Pagination } from 'vue3-carousel';
   export default {
@@ -73,7 +74,6 @@
     },
     data() {
       return {
-        games: json.games,
         plyroptions: {
           controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen']
         },
@@ -88,8 +88,19 @@
       },
     },
     mounted() {
+      this.$store.dispatch('loadGames'),
       window.scrollTo(0, 0)
       this.$nextTick().then(() => document.body.classList.add('gamepage'))
+    },
+    computed: {
+      ...mapState([
+        'games'
+      ])
+    },
+    setup () {
+      useMeta({
+        title: 'Curious Games - Game Detail'
+      })
     }
   }
 </script>

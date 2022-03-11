@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="overflow-hidden bg-black h-half md:min-h-screen" v-for="section in sections" :key="section.id">
+  <section class="overflow-hidden bg-black h-half md:min-h-screen" v-for="section in homesections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
@@ -59,7 +59,7 @@
 
 <script>
   import ScrollDownIcon from "../components/ScrollDownIcon.vue";
-  import json from '../assets/data/home.json'
+  import {mapState} from 'vuex'
   import 'vue3-carousel/dist/carousel.css';
   import { Carousel, Slide, Pagination } from 'vue3-carousel';
   export default {
@@ -71,14 +71,19 @@
     },
     data() {
       return {
-        sections: json.sections,
         slidersettings: {
           pauseAutoplayOnHover: false
         }
       }
     },
     mounted() {
+      this.$store.dispatch('loadHomeSections'),
       this.$nextTick().then(() => document.body.classList.remove('gamepage'))
+    },
+    computed: {
+      ...mapState([
+        'homesections'
+      ])
     }
   };
 </script>

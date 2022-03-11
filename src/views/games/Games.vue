@@ -12,15 +12,22 @@
 </template>
 
 <script>
-  import json from '../../assets/data/games.json'
+  import { useMeta } from 'vue-meta'
+  import {mapState} from 'vuex'
   export default {
-    data() {
-      return {
-        games: json.games,
-      }
-    },
     mounted() {
+      this.$store.dispatch('loadGames'),
       window.scrollTo(0, 0)
+    },
+    computed: {
+      ...mapState([
+        'games'
+      ])
+    },
+    setup () {
+      useMeta({
+        title: 'Curious Games - Games'
+      })
     }
   }
 </script>

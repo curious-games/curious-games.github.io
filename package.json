@@ -8,9 +8,10 @@
     "deploy": "ssh -i ~/.ssh/id_rsa -p 7000 -t deployer@134.209.183.10 'cd /var/www/curious-games.github.io/ && git pull && sudo nginx -s reload'"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "tailwindcss-border-gradients": "^2.0.3",
     "vue": "^3.2.16",
-    "vue-3-meta": "^2.4.0",
+    "vue-meta": "^3.0.0-alpha.7",
     "vue-i18n": "^9.2.0-beta.26",
     "vue-plyr": "^7.0.0",
     "vue-router": "^4.0.11",

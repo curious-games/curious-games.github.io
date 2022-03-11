@@ -1,4 +1,9 @@
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">
+      {{ content }}
+    </template>
+  </metainfo>
   <div class="flex flex-col min-h-screen font-sans text-white">
     <div class="fixed z-30 h-29">
       <div class="fixed z-40 w-screen h-20 bg-black border-b border-gray-600 md:h-29"></div>
@@ -95,6 +100,7 @@
 </template>
 
 <script>
+  import { useMeta } from 'vue-meta'
   export default {
     name: "app",
     data() {
@@ -110,6 +116,11 @@
         this.menuOpen = false;
       }
     },
+    setup () {
+      useMeta({
+        title: 'Curious Games - Welcome'
+      })
+    }
   };
 </script>
 

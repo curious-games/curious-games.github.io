@@ -4,11 +4,13 @@ import VuePlyr from 'vue-plyr'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import { createMetaManager } from 'vue-meta'
 import './index.css'
 
-// const i18n = createI18n({
-  
-// })
 
-// createApp(App).use(router).use(i18n).use(store).use(VuePlyr).mount('#app')
-createApp(App).use(router).use(store).use(VuePlyr).mount('#app')
+createApp(App)
+.use(router)
+.use(store)
+.use(createMetaManager())
+.use(VuePlyr)
+.mount('#app')
