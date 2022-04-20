@@ -2,7 +2,7 @@
 <div class="relative">
   <section class="h-screen bg-black">
     <div class="relative w-full h-screen mt-4">
-      <video autoplay loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover">
+      <video autoplay loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover" >
         <source src="/mov/CG_Teaser_720p.mp4" type="video/mp4" />
         <source src="/mov/CG_Teaser_720p.webm" type="video/webm" />
       </video>
