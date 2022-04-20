@@ -3,8 +3,8 @@
   <section class="h-screen bg-black">
     <div class="relative w-full h-screen mt-4">
       <video autoplay muted loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover">
-        <source src="/mov/cg-teaser-hd.mp4" type="video/mp4" />
-        <source src="/mov/cg-teaser-hd.webm" type="video/webm" />
+        <source src="/mov/CG_Teaser_720p.mp4" type="video/mp4" />
+        <source src="/mov/CG_Teaser_720p.webm" type="video/webm" />
       </video>
       <div class="relative z-10 w-screen">
         <div class="flex items-center justify-center h-screen">
