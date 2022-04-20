@@ -1,6 +1,6 @@
 <template>
 <div class="relative">
-  <section class="bg-black md:h-screen">
+  <section class="w-auto bg-black md:h-screen md:pb-0">
     <div class="relative w-full mt-[4.2rem] md:mt-4 md:h-screen">
       <video autoplay muted loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover" >
         <source src="/mov/CG_Teaser_720p.mp4" type="video/mp4" />
@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="overflow-hidden bg-black min-h-[395px] md:min-h-screen" v-for="section in homesections" :key="section.id">
+  <section class="overflow-hidden bg-black min-h-[410px] md:min-h-screen" v-for="section in homesections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
@@ -96,7 +96,7 @@
     width: 100%;
     position: absolute;
     bottom: 7.5rem;
-    @apply hidden md:flex;
+    @apply hidden lg:flex;
   }
   .carousel__pagination-button {
     background-color: #4CB7EB !important;
