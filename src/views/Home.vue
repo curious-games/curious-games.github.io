@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="overflow-hidden bg-black h-half md:min-h-screen" v-for="section in homesections" :key="section.id">
+  <section class="overflow-hidden bg-black min-h-[395px] md:min-h-screen" v-for="section in homesections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
@@ -25,7 +25,7 @@
         :settings="slidersettings">
           <img class="object-cover w-full h-full opacity-60" :src="img.path" alt="">
         </slide>
-        <template #addons="{ slidesCount }">
+        <template #addons="{ slidesCount }" >
           <Pagination v-if="slidesCount > 1" />
         </template>
       </carousel>
@@ -96,6 +96,7 @@
     width: 100%;
     position: absolute;
     bottom: 7.5rem;
+    @apply hidden md:flex;
   }
   .carousel__pagination-button {
     background-color: #4CB7EB !important;
