@@ -4,10 +4,12 @@
     <div class="relative w-full mt-[4.2rem] md:mt-4 md:h-screen">
       
       <div 
-      class="absolute z-50 flex items-end justify-end w-full min-h-full text-sm cursor-pointer md:w-16 md:h-6 md:text-white md:bottom-8 right-6" 
-      @click="toggleMute">
-        <span v-if="mute">unmute</span>
-        <span v-else>mute</span>
+      class="absolute z-50 flex items-end justify-end w-full h-full text-sm md:w-16 md:h-6 md:text-white md:bottom-8 right-6" @click="toggleMute" 
+      >
+        <div  class="cursor-pointer">
+          <span v-if="mute">unmute</span>
+          <span v-else>mute</span>
+        </div>
       </div>
 
       <video autoplay :muted="mute" loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover" >
