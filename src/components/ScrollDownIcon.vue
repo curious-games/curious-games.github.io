@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hidden md:block">
     <div class="z-50 flex items-center justify-center pt-32 md:pt-96 h-11">
       <svg
         viewBox="0 0 247 390"

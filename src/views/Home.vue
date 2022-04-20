@@ -1,13 +1,13 @@
 <template>
 <div class="relative">
-  <section class="h-screen bg-black">
-    <div class="relative w-full h-screen mt-4">
+  <section class="bg-black md:h-screen">
+    <div class="relative w-full mt-[4.2rem] md:mt-4 md:h-screen">
       <video autoplay muted loop playsinline preload="auto" class="absolute z-0 w-full h-full overflow-x-hidden md:object-cover" >
         <source src="/mov/CG_Teaser_720p.mp4" type="video/mp4" />
         <source src="/mov/CG_Teaser_720p.webm" type="video/webm" />
       </video>
       <div class="relative z-10 w-screen">
-        <div class="flex items-center justify-center h-screen">
+        <div class="flex items-center justify-center md:h-screen">
           <p class="p-2 font-thin text-8xl md:text-9xl">
             <span class="block md:mr-20">&nbsp;</span> <span class="block ml-0 md:ml-20">&nbsp;</span>
             <ScrollDownIcon />
