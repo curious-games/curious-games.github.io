@@ -3,9 +3,6 @@
   <section class="w-auto bg-black md:h-screen md:pb-0">
     <div class="relative w-full mt-[4.2rem] md:mt-4 md:h-screen">
       
-      <!-- <div 
-      class="absolute z-20 flex items-end w-full h-full text-sm md:w-20 md:h-10 md:text-white bottom-8 right-6" @click="toggleMute" 
-      > -->
       <div 
       class="absolute z-20 flex items-end justify-end w-full h-full text-sm md:h-10 md:bottom-8 md:right-6" @click="toggleMute" 
       >
