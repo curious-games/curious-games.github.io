@@ -99,10 +99,10 @@
       this.$nextTick().then(() => document.body.classList.remove('gamepage'))
     },
     methods: {
-    toggleMute() {
-      this.mute = !this.mute
-    }
-  },
+      toggleMute() {
+        this.mute = !this.mute
+      }
+    },
     computed: {
       ...mapState([
         'homesections'
