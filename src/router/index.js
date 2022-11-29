@@ -38,6 +38,11 @@ const routes = [
     component: () => import('/src/views/Partners.vue'),
   },
   {
+    path: '/en/HypercarMultiplier',
+    name: 'HypercarMultiplier',
+    component: () => import('/src/views/HypercarMultiplier.vue'),
+  },
+  {
     path: '/:catchAll(.*)',
     name: 'FourOFour',
     component: () => import('/src/views/FourOFour.vue')
