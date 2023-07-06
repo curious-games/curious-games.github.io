@@ -27,8 +27,8 @@ Career
 - [x] Partners çıkacak
 - [x] Ready Steady ve Award wining team haricindeliler ana sayfadan çıkacak
 - [x] Ready Strady deki publisher developer olacak
-- [ ] Yeni oyunlar eklenecek
-- [ ] Oyunların isimleri değişecek, tolgaya sor
+- [ ] Yeni oyunlar/görseller eklenecek (Tolga)
+- [ ] Oyunların isimleri değişecek (Tolga)
 - [x] footer mesajı opacity azalt
 
 
