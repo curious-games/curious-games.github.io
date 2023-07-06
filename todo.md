@@ -1,4 +1,4 @@
-Todo
+# Todo
 
 Homepage
 
@@ -6,7 +6,7 @@ Homepage
 - [x] Robodog ile Cars yer değiştirecek
 - [x] Opacity düşürelecek
 - [x] Desktop: infolar padding eklenecek 
-- [ ] Robodog slider olarak eklenecek 
+- [x] Robodog slider olarak eklenecek 
 
 Game Detail
 
@@ -21,3 +21,15 @@ Partners
 Career
 
 - [x] Mobile: Content altına margin
+
+---
+
+- [x] Partners çıkacak
+- [x] Ready Steady ve Award wining team haricindeliler ana sayfadan çıkacak
+- [x] Ready Strady deki publisher developer olacak
+- [ ] Yeni oyunlar eklenecek
+- [ ] Oyunların isimleri değişecek, tolgaya sor
+- [x] footer mesajı opacity azalt
+
+
+

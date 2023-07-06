@@ -55,14 +55,14 @@
                   >Games</router-link
                 >
               </li>
-              <li class="mb-6 lg:mb-0">
+              <!-- <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
                   :to="`/en/partners`"
                   class="text-copy-primary hover:text-gray-400"
                   >Partners</router-link
                 >
-              </li>
+              </li> -->
               <li class="mb-6 lg:mb-0">
                 <router-link
                   @click.native="menuOpen = !menuOpen"
@@ -90,7 +90,7 @@
     </div>
     <div class="grid clear-both grid-cols-3 text-white bg-black md:mb-0 md:h-36">
       <div class="grid col-span-3 md:col-span-1">
-          <p class="self-end p-4 text-xxs">Curious Games is the owner of all software and all other material on this website. All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games. Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
+          <p class="self-end p-4 opacity-40 text-xxs">Curious Games is the owner of all software and all other material on this website. All intellectual property rights and any other protected rights vested therein exclusively belong to Curious Games. Any kind of exploitation of Curious Games intellectual property rights requires our written approval.</p>
       </div>
       <div class="grid col-span-3 md:col-span-1">
         <img src="/gfx/footer.png" alt="hello" class="self-end place-self-center h-28" />
