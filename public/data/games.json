@@ -1,6 +1,132 @@
 [
   {
     "id": 1,
+    "slug": "roach-roulette",
+    "image": "/img/games/GamePage_2nd_RoachRoulette.png",
+    "sliders": [
+      {
+        "id": 1,
+        "slide" : "/img/games/GamePage_2nd_RoachRoulette_A.png"
+      },
+      {
+        "id": 2,
+        "slide" : "/img/games/GamePage_2nd_RoachRoulette_B.png"
+      },
+      {
+        "id": 3,
+        "slide" : "/img/games/GamePage_2nd_RoachRoulette_C.png"
+      },
+      {
+        "id": 4,
+        "slide" : "/img/games/GamePage_2nd_RoachRoulette_D.png"
+      },
+      {
+        "id": 5,
+        "slide" : "/img/games/GamePage_2nd_RoachRoulette_E.png"
+      }
+    ],
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Roach Rou</span>lette",
+    "metatitle": "Roach Roulette",
+    "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
+    "date": "TBC",
+    "type": "Virtual Race",
+    "mobile": "Fully Optimised",
+    "rtp": "96.20%",
+    "rng": "Yes",
+    "duration": "30sec",
+    "resolution": "16:9",
+    "paylines": "Fixed 20",
+    "volatility": "High",
+    "exposure": "666,600",
+    "poster": "/img/games/GamePage_2nd_RoachRoulette.png",
+    "video": "/img/games/GamePage_2nd_RoachRoulette.mp4"
+  },
+  {
+    "id": 2,
+    "slug": "crabroulette",
+    "image": "/img/games/GamePage_2nd_CrabRoulette.png",
+    "sliders": [
+      {
+        "id": 1,
+        "slide" : "/img/games/GamePage_2nd_CrabRoulette_A.png"
+      },
+      {
+        "id": 2,
+        "slide" : "/img/games/GamePage_2nd_CrabRoulette_B.png"
+      },
+      {
+        "id": 3,
+        "slide" : "/img/games/GamePage_2nd_CrabRoulette_C.png"
+      },
+      {
+        "id": 4,
+        "slide" : "/img/games/GamePage_2nd_CrabRoulette_D.png"
+      },
+      {
+        "id": 5,
+        "slide" : "/img/games/GamePage_2nd_CrabRoulette_E.png"
+      }
+    ],
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Crab Rou</span>lette",
+    "metatitle": "Crab Roulette",
+    "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
+    "date": "TBC",
+    "type": "Virtual Race",
+    "mobile": "Fully Optimised",
+    "rtp": "96.20%",
+    "rng": "Yes",
+    "duration": "30sec",
+    "resolution": "16:9",
+    "paylines": "Fixed 20",
+    "volatility": "High",
+    "exposure": "666,600",
+    "poster": "/img/games/GamePage_2nd_CrabRoulette.jpg",
+    "video": "/img/games/GamePage_2nd_CrabRoulette.mp4"
+  },
+  {
+    "id": 3,
+    "slug": "penguinsslide",
+    "image": "/img/games/GamePage_2nd_PenguinsSlide.png",
+    "sliders": [
+      {
+        "id": 1,
+        "slide" : "/img/games/GamePage_2nd_PenguinsSlide_A.png"
+      },
+      {
+        "id": 2,
+        "slide" : "/img/games/GamePage_2nd_PenguinsSlide_B.png"
+      },
+      {
+        "id": 3,
+        "slide" : "/img/games/GamePage_2nd_PenguinsSlide_C.png"
+      },
+      {
+        "id": 4,
+        "slide" : "/img/games/GamePage_2nd_PenguinsSlide_D.png"
+      },
+      {
+        "id": 5,
+        "slide" : "/img/games/GamePage_2nd_PenguinsSlide_E.png"
+      }
+    ],
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Penguins</span> Slide",
+    "metatitle": "Penguins Slide",
+    "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
+    "date": "TBC",
+    "type": "Virtual Race",
+    "mobile": "Fully Optimised",
+    "rtp": "96.20%",
+    "rng": "Yes",
+    "duration": "30sec",
+    "resolution": "16:9",
+    "paylines": "Fixed 20",
+    "volatility": "High",
+    "exposure": "666,600",
+    "poster": "/img/games/GamePage_2nd_PenguinsSlide.png",
+    "video": "/img/games/GamePage_2nd_PenguinsSlide.mp4"
+  },
+  {
+    "id": 4,
     "slug": "cockroachracers",
     "image": "/img/games/GamePage_01_Virtual_Roach_Races.jpg",
     "sliders": [
@@ -42,7 +168,7 @@
     "video": "/mov/CockroachRacers.mp4"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "robodog",
     "image": "/img/games/GamePage_02_Machina_Races_-_K9_Edition.jpg",
     "sliders": [
@@ -82,7 +208,7 @@
     "exposure": "666,600"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "cyberrace",
     "image": "/img/games/GamePage_03_Machina_Races_-_CyberRaces.jpg",
     "sliders": [
@@ -114,7 +240,7 @@
     "exposure": "666,600"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "tronbikers",
     "image": "/img/games/GamePage_04_Machina_Races_-_TronBikers.jpg",
     "sliders": [
@@ -138,13 +264,13 @@
     "exposure": "666,600"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "comingsoon",
-    "image": "/img/games/GamePage_05_Coming_Soon.jpg",
+    "image": "/img/games/GamePage_2nd_ComingSoon.png",
     "sliders": [
       {
         "id": 1,
-        "slide" : "/img/games/GamePage_05_Coming_Soon.jpg"
+        "slide" : "/img/games/GamePage_2nd_ComingSoon.png"
       }
     ],
     "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
