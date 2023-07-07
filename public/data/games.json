@@ -266,11 +266,11 @@
   {
     "id": 8,
     "slug": "comingsoon",
-    "image": "/img/games/GamePage_2nd_ComingSoon.png",
+    "image": "/img/games/Coming_Soon.jpg",
     "sliders": [
       {
         "id": 1,
-        "slide" : "/img/games/GamePage_2nd_ComingSoon.png"
+        "slide" : "/img/games/Coming_Soon.jpg"
       }
     ],
     "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
