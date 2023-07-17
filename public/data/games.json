@@ -25,7 +25,7 @@
         "slide" : "/img/games/GamePage_2nd_RoachRoulette_E.png"
       }
     ],
-    "title": "<span class='border-b-8 border-gradient-r-curious'>Roach Rou</span>lette",
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
     "metatitle": "Roach Roulette",
     "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
     "date": "TBC",
@@ -43,7 +43,7 @@
   },
   {
     "id": 2,
-    "slug": "crabroulette",
+    "slug": "",
     "image": "/img/games/GamePage_2nd_CrabRoulette.png",
     "sliders": [
       {
@@ -67,7 +67,7 @@
         "slide" : "/img/games/GamePage_2nd_CrabRoulette_E.png"
       }
     ],
-    "title": "<span class='border-b-8 border-gradient-r-curious'>Crab Rou</span>lette",
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
     "metatitle": "Crab Roulette",
     "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
     "date": "TBC",
@@ -85,7 +85,7 @@
   },
   {
     "id": 3,
-    "slug": "penguinsslide",
+    "slug": "",
     "image": "/img/games/GamePage_2nd_PenguinsSlide.png",
     "sliders": [
       {
@@ -109,7 +109,7 @@
         "slide" : "/img/games/GamePage_2nd_PenguinsSlide_E.png"
       }
     ],
-    "title": "<span class='border-b-8 border-gradient-r-curious'>Penguins</span> Slide",
+    "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
     "metatitle": "Penguins Slide",
     "about": "<p>Prepare yourself for the worlds first photorealistic rendered cockroach race contest. Pick your roach and watch them compete to finish line glory (well for the roaches, that make it of course!).<br>The virtual race is live rendered with digital 3D action and RNG based. </p><p>Our contests support all the established markets (including Win, Forecast, Reverse Forecast, Tricast and Reverse Tricast).</p><p>Our virtual contests are high frequency, with a new race every 2 to 3 minutes, a 24/7 dedicated channel and seamless odds integration. The game logic behind each virtual race is fully adaptable to regulatory frameworks.</p>",
     "date": "TBC",
@@ -262,29 +262,5 @@
     "paylines": "Fixed 20",
     "volatility": "High",
     "exposure": "666,600"
-  },
-  {
-    "id": 8,
-    "slug": "",
-    "image": "/img/games/Coming_Soon.jpg",
-    "sliders": [
-      {
-        "id": 1,
-        "slide" : "/img/games/Coming_Soon.jpg"
-      }
-    ],
-    "title": "<span class='border-b-8 border-gradient-r-curious'>Coming So</span>on",
-    "metatitle": "Coming Soon",
-    "about": "",
-    "date": "",
-    "type": "",
-    "mobile": "",
-    "rtp": "",
-    "rng": "",
-    "duration": "",
-    "resolution": "",
-    "paylines": "",
-    "volatility": "",
-    "exposure": ""
   }
 ]
