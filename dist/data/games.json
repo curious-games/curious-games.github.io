@@ -2,7 +2,7 @@
   {
     "id": 1,
     "slug": "",
-    "image": "/img/games/GamePage_2nd_RoachRoulette.png",
+    "image": "/img/games/RoachRoulette_Blurred.png",
     "sliders": [
       {
         "id": 1,
@@ -44,7 +44,7 @@
   {
     "id": 2,
     "slug": "",
-    "image": "/img/games/GamePage_2nd_CrabRoulette.png",
+    "image": "/img/games/CrabRoulette_Blurred.png",
     "sliders": [
       {
         "id": 1,
@@ -86,7 +86,7 @@
   {
     "id": 3,
     "slug": "",
-    "image": "/img/games/GamePage_2nd_PenguinsSlide.png",
+    "image": "/img/games/PenguinsSlide_Blurred.png",
     "sliders": [
       {
         "id": 1,
