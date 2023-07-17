@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "slug": "roach-roulette",
+    "slug": "",
     "image": "/img/games/GamePage_2nd_RoachRoulette.png",
     "sliders": [
       {
@@ -265,7 +265,7 @@
   },
   {
     "id": 8,
-    "slug": "comingsoon",
+    "slug": "",
     "image": "/img/games/Coming_Soon.jpg",
     "sliders": [
       {
