@@ -23,7 +23,7 @@
         </div>
         <div class="grid col-span-6 md:col-span-5 md:pl-6">
           <div class="col-span-5 mb-8 text-2xl font-semibold md:text-6xl">
-            <p v-html="game.title"></p>
+            <h1 v-html="game.title"></h1>
           </div>
           <div class="col-span-5 col-start-1 pr-4 md:px-4 md:col-span-3 md:font-thin md:pl-0" v-if="game.about">
             <h2 class="mb-8 text-xl font-semibold md:text-3xl">About game</h2>

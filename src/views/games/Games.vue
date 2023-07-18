@@ -4,7 +4,7 @@
       <div class="absolute inset-0 z-0 bg-center bg-cover" v-bind:style="{ backgroundImage: 'url(' + game.image + ')' }"></div>
       <router-link :to="`/en/games/` + game.slug + ``" class="absolute inset-0 z-10 flex items-center justify-center text-4xl font-semibold text-white duration-300 md:text-6xl md:opacity-0 md:bg-black/50 hover:opacity-100 ">
       <div class="md:w-2/5">
-        <p v-html="game.title"></p>
+        <h2 v-html="game.title"></h2>
       </div>
       </router-link>
     </div>
