@@ -35,11 +35,11 @@
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
-        class="z-0 w-full h-full"
+        class="z-0 object-cover w-full h-full"
         :settings="slidersettings">
           <img class="object-cover w-full h-full opacity-60" :src="img.path" alt="">
         </slide>
-        <template #addons="{ slidesCount }" >
+        <template #addons="{ slidesCount }" class="hidden lg:block">
           <Pagination v-if="slidesCount > 1" />
         </template>
       </carousel>
