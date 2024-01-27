@@ -7,8 +7,8 @@
         "path" : "/img/home/Homepage_01_ReadySteadyGoCURIOUS.jpg"
       }
     ],
-    "header": "READY<br>STEADY<br>GO<span class='text-cur-blue'>CURIOUS</span>",
-    "text" : "Curious Games is the world’s first virtual sports developer dedicated to alternative virtual contests.",
+    "header": "NEXT<br>GENERATION<br>GAMING EXPERIENCE<span class='text-cur-blue'>CURIOUS</span>",
+    "text" : "The Curious Games studio is an innovator in gaming logic and graphical quality of creative content.",
     "buttontext": "Try Now",
     "buttonlink": "/en/games/",
     "ver" : "items-center",
@@ -21,19 +21,19 @@
     "images": [
       {
         "id": 1,
-        "path" : "/img/home/Homepage_05_AwardWinningTeam_A.jpg"
+        "path" : "/img/home/Homepage_05_AwardWinningTeam_1.jpg"
       },
       {
         "id": 2,
-        "path" : "/img/home/Homepage_05_AwardWinningTeam_B.jpg"
+        "path" : "/img/home/Homepage_05_AwardWinningTeam_2.jpg"
       },
       {
         "id": 3,
-        "path" : "/img/home/Homepage_05_AwardWinningTeam_C.jpg"
+        "path" : "/img/home/Homepage_05_AwardWinningTeam_3.jpg"
       },
       {
         "id": 4,
-        "path" : "/img/home/Homepage_05_AwardWinningTeam_D.jpg"
+        "path" : "/img/home/Homepage_05_AwardWinningTeam_4.jpg"
       }
     ],
     "header": "Award winning team",
