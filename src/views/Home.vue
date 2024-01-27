@@ -31,15 +31,15 @@
     </div>
   </section>
 
-  <section class="overflow-hidden bg-black md:min-h-screen" v-for="section in homesections" :key="section.id">
+  <section class="overflow-hidden bg-black min-h-[410px] md:min-h-screen" v-for="section in homesections" :key="section.id">
     <div class="relative w-full h-half md:h-screen">
       <carousel :autoplay="2000" :wrap-around="true" class="absolute w-full h-half md:h-screen">
         <slide v-for="img in section.images" :key="img.id" 
-        class="z-0 object-cover w-full h-full"
+        class="z-0 w-full h-full"
         :settings="slidersettings">
           <img class="object-cover w-full h-full opacity-60" :src="img.path" alt="">
         </slide>
-        <template #addons="{ slidesCount }" class="hidden lg:block">
+        <template #addons="{ slidesCount }" >
           <Pagination v-if="slidesCount > 1" />
         </template>
       </carousel>
