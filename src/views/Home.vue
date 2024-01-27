@@ -39,7 +39,7 @@
         :settings="slidersettings">
           <img class="object-cover w-full h-full opacity-60" :src="img.path" alt="">
         </slide>
-        <template #addons="{ slidesCount }" class="hidden md:block">
+        <template #addons="{ slidesCount }" class="hidden lg:block">
           <Pagination v-if="slidesCount > 1" />
         </template>
       </carousel>
