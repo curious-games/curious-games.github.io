@@ -30,7 +30,3 @@ Career
 - [ ] Yeni oyunlar/görseller eklenecek (Tolga)
 - [ ] Oyunların isimleri değişecek (Tolga)
 - [x] footer mesajı opacity azalt
-
-
-
-DENEM

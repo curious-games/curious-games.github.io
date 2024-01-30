@@ -30,7 +30,7 @@
             <div class="text-black about" v-html="game.about"></div>
           </div>
           <div class="col-span-6 md:col-span-2 md:text-right" v-if="game.about">
-            <h2 class="mb-8 text-xl font-semibold md:px-4 md:text-3xl md:px-0">Specifications</h2>
+            <h2 class="mb-8 text-xl font-semibold md:text-3xl md:px-0">Specifications</h2>
             <div class="grid grid-cols-2 gap-4 p-6 bg-gray-100 rounded-lg bg-opacity-70 md:font-thin">
               <div v-if="game.date" class="text-gray-800">Release Date</div><div class="text-gray-500">{{game.date}}</div>
               <div v-if="game.type" class="text-gray-800">Game type</div><div class="text-gray-500">{{game.type}}</div>
