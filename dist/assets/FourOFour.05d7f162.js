@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as s}from"./index.62375ab0.js";const r={},c={class:"flex items-center justify-center h-screen -mb-52 pt-52"},a=s("h2",{class:"text-5xl font-bold text-black border-b-8 mb-52 border-gradient-r-curious"},"Page Not Found!",-1),n=[a];function _(d,i,l,u,f,p){return t(),o("div",c,n)}var m=e(r,[["render",_]]);export{m as default};
